@@ -1,34 +1,55 @@
-# NEW Mac dev SETUP
+# NEW MACBOOK DEV SETUP
 
 Set up for macOS system preferences, homebrew, terminal, programs, plug-ins and more.
-
-## term2 zsh ohmyzsh
 
 This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev) set up, also I included commands and free DLCs.
 
 ## System Preferences
 
 1. Trackpad
+
    1. [x] 3 Finger Dragging
    1. [x] Tap to click
    1. [ ] Swipe 2 finger last page
    <!-- ![alt text][.jpg] -->
-   1. [Change] Right click → on the right bottom corner
+   1. [ ] [Change] Right click → on the right bottom corner
+
 1. Change Cursor size in Accessibility
+
 1. Internet Accounts + Login iCloud + App Store
+
 1. Keyboard + Region
+
    1. Language inputs
       1. shortcurt → Input Sources → [x] Select previous input source (! alt + space)
-   2. Region (ireland: have euro, english, gregorian, close time zone, not imperialist UK)
-1. Dock + Menu Bar
-   1. clean apps on the dock
-   2. hide Siri
-   3. [x] autohide
-   4. amplify
-   5. genie → scale
-1. SECURITY
+   1. Region (ireland: have euro, english, gregorian, close time zone, not imperialist UK)
 
-   1. [x] filevault
+1. Dock + Menu Bar
+
+   1. [remove] Apps on the dock
+   2. [hide] Siri
+   3. [x] Autohide
+   4. [x] Show audio icon
+   5. [genie → scale] Minimize windows
+
+1. Security
+
+   1. [immediately] Required password
+   1. [x] Filevault
+   1. Privacy -> turn off no neded [Location Services]
+
+1. Users & Groups
+
+   1. [ ] Login Options > Show fast user switching as [icon]
+
+1. Spotlight
+
+   1. [ ] Turn off no needed categories
+   1. [+] Privacy
+
+1. Battery
+
+   1. Change as you want.
 
 1. Change Wallpaper
 
@@ -42,89 +63,90 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
    `brew analytics off`
 
 2. Install [iTerm2](https://iterm2.com/)
+
    `brew install --cask iterm2` - iTerm settings: 1. Go 「**iterm2 Preferences -> Profiles -> Default -> Window**」, add transparency and blur. 2. • Go 「**iterm2 Preferences -> Profiles -> Default -> Keys -> Key Mappings**」, replace the standard ones with the preset "Natural Text Editing". 3. **Install Oh My Zsh**
 
 3. Customize terminal and plugins
 
-   - The great thing about this is that you can customize your shell and add plugins. Unlike the old Bash shell, which does not look attractive and can make it difficult for you to use.
+   1. The great thing about this is that you can customize your shell and add plugins. Unlike the old Bash shell, which does not look attractive and can make it difficult for you to use.
 
-     ```powershell
-     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-     ```
+```powershell
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
      1. **Choose your favorite theme**
 
-     There are [multiple themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) you can choose from. My favorite theme is [honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh) and it should look like in the screenshot:
+    There are [multiple themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) you can choose from. My favorite theme is [honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh) and it should look like in the screenshot:
 
-     ![https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/honukai-theme.png](https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/honukai-theme.png)
+    ![https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/honukai-theme.png](https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/honukai-theme.png)
 
-     For compelete guide, dive into it's [docs](https://github.com/oskarkrawczyk/honukai-iterm-zsh).
+    For compelete guide, dive into it's [docs](https://github.com/oskarkrawczyk/honukai-iterm-zsh).
 
-     1. **Add useful oh-my-zsh plugins**
+    1. **Add useful oh-my-zsh plugins**
 
-     Oh-my-zsh is powered by plugins. I'll share my top 3 plugins.
+    Oh-my-zsh is powered by plugins. I'll share my top 3 plugins.
 
-     ```powershell
-     plugins=(
-         git
-         autojump
-         zsh-syntax-highlighting
-     )
-     ```
+    ```powershell
+    plugins=(
+        git
+        autojump
+        zsh-syntax-highlighting
+    )
+    ```
 
-     - PLUGGINS
+1.  PLUGGINS
 
-       1. the `git` plugin
+    1. the `git` plugin
 
-       The [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin is enabled by default. It provides many aliases and a few useful functions.
+    The [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin is enabled by default. It provides many aliases and a few useful functions.
 
-       ![https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/git-plugin.png](https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/git-plugin.png)
+    ![https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/git-plugin.png](https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/git-plugin.png)
 
-       To use it, add `git` to the plugins array in your zshrc file:
+    To use it, add `git` to the plugins array in your zshrc file:
 
-       ```powershell
-       plugins=(git)
-       ```
+    ```powershell
+    plugins=(git)
+    ```
 
-       1. the `autojump` plugin
+    1. the `autojump` plugin
 
-       Use Homebrew to install [autojump](https://github.com/wting/autojump#installation).
+    Use Homebrew to install [autojump](https://github.com/wting/autojump#installation).
 
-       ```powershell
-       brew install autojump
-       ```
+    ```powershell
+    brew install autojump
+    ```
 
-       After that, add `autojump` to your zshrc file:
+    After that, add `autojump` to your zshrc file:
 
-       ```powershell
-       plugins=(... autojump)
+    ```powershell
+    plugins=(... autojump)
 
-       ```
+    ```
 
-       1. the `zsh-syntax-highlighting` plugin
+    1. the `zsh-syntax-highlighting` plugin
 
-       The installation of [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) may be tedious. But it worth the effort.
+    The installation of [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) may be tedious. But it worth the effort.
 
-       Clone the [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) repository in oh-my-zsh's plugins directory:
+    Clone the [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) repository in oh-my-zsh's plugins directory:
 
-       ```powershell
-       git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-       ```
+    ```powershell
+    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+    ```
 
-       Then, activate the plugin in `~/.zshrc`:
+    Then, activate the plugin in `~/.zshrc`:
 
-       `plugins=(... zsh-syntax-highlighting)`
-       After adding the plugins to your `.zshrc` file, you have to restart zsh to activate them, using the command `source ~/.zshrc`.You can find all my settings of `.zshrc` [here](https://gist.githubusercontent.com/maoxiaoke/0f61f217c428dcfba48067622db83a8e/raw/78da5225ff3cdc8df38db28b8f872a6f6836cfc2/__Configurations__---zshrc.text).\*\*\*\*
+    `plugins=(... zsh-syntax-highlighting)`
+    After adding the plugins to your `.zshrc` file, you have to restart zsh to activate them, using the command `source ~/.zshrc`.You can find all my settings of `.zshrc` [here](https://gist.githubusercontent.com/maoxiaoke/0f61f217c428dcfba48067622db83a8e/raw/78da5225ff3cdc8df38db28b8f872a6f6836cfc2/__Configurations__---zshrc.text).\*\*\*\*
 
-   - CLI stuff
+1.  CLI stuff
 
-     1. get pnpm
+    1. get pnpm
 
-        [pnpm](https://pnpm.io/) is fast, disk space efficient package manager, works as an alternative of [npm](https://www.npmjs.com/). `$ brew install pnpm`
+    [pnpm](https://pnpm.io/) is fast, disk space efficient package manager, works as an alternative of [npm](https://www.npmjs.com/). `$ brew install pnpm`
 
-     2. get volta
+    1. get volta
 
-        manage multiple [Node.js](https://nodejs.org/en/) versions`curl https://get.volta.sh | bash`
+    manage multiple [Node.js](https://nodejs.org/en/) versions`curl https://get.volta.sh | bash`
 
 ## Install Apps from Homebrew
 
@@ -165,13 +187,21 @@ Mactracker `brew install --cask mactracker`
 ### ADD-ONS
 
 **Notion** `brew install --cask notion`
+
 TopNotch `brew install --cask topnotch`
+
 Dozer `brew install --cask dozer`
+
 Rectangle `brew install --cask rectangle`
+
 Karabiner `brew install --cask karabiner-elements`
+
 Macs Fan Control `brew install --cask macs-fan-control`
+
 Helium `brew install --cask helium`
+
 Net Download **\*\*\*\***`brew install --cask netdownloadhelpercoapp`
+
 Aldente `brew install --cask aldente`
 
 - **Depricated ones**
@@ -209,8 +239,11 @@ Tor (?)`brew install tor`
 ### MEDIA
 
 - Affinity (v2)
+
   Designer `brew install --cask affinity-designer`
+
   Photo `brew install --cask affinity-photo`
+
   Publisher `brew install --cask affinity-publisher`
 
 Adobe CC `brew install --cask adobe-creative-cloud`
@@ -226,7 +259,9 @@ ImageOptim `brew install --cask imageoptim`
 Blender `brew install --cask blender`
 
 Sketchup(2017 discontinued) **\*\*\*\***`brew install --cask sketchup`
+
 IINA(replace VLC) `brew install --cask iina`
+
 Librecad (depricated, only for intel) `brew install --cask librecad`
 
 ### SOUND
@@ -247,13 +282,19 @@ Spotify `brew install --cask spotify`
 Skype `brew install --cask skype`
 
 Steam `brew install --cask steam`
+
 Dolphin `brew install --cask dolphin`
 
 Discord `brew install --cask discord`
+
 Signal `brew install --cask signal`
+
 Telegram `brew install --cask telegram`
+
 Zoom `brew install --cask zoom`
+
 Whatsapp `brew install --cask whatsapp`
+
 Messenger(>10.12) \*\*\*\*`brew install --cask messenger`
 
 ## Install Apps from the Browser
