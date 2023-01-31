@@ -6,6 +6,8 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 ## System Preferences 🎛️
 
+<img src="https://media1.giphy.com/media/3oKIPnFtTTc4iDHGmI/200w.webp?cid=ecf05e47bo5ycdzfxrbskwdzfakfotacdixd4rz4fxmff82e&rid=200w.webp&ct=g" width="666" />
+
 1. Accessibility
 
    1. Change Cursor size
@@ -34,7 +36,8 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
    1. Automatically hide and show the Dock [x]
 
-   ![dock](dock.webp)
+   <!-- ![dock](dock.webp) -->
+      <img src="dock.webp" width="500">
 
 1. Security
 
@@ -73,7 +76,8 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
       1. Tap to Click [x]
 
-         ![point click](point-click.webp)
+         <!-- ![point click](point-click.webp) -->
+         <img src="point-click.webp" width="500">
 
 1. More Gestures
 
@@ -83,12 +87,12 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
    1. [Change] Right click → on the right bottom corner
 
-      ![more gestures](more-gestures.webp)
+      <!-- ![more gestures](more-gestures.webp) -->
+      <img src="more-gestures.webp" width="500">
 
 ## Terminal set up 📟
 
-<!-- <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="400"/> -->
-<img src="https://media2.giphy.com/media/26uf4LsTj87JjVDbO/giphy.gif?cid=ecf05e47znj7hli7wiyzjp3li8vhjd89942bfub3yjsdwfn2&rid=giphy.gif&ct=g" width="400" />
+   <img src="https://media2.giphy.com/media/26uf4LsTj87JjVDbO/giphy.gif?cid=ecf05e47znj7hli7wiyzjp3li8vhjd89942bfub3yjsdwfn2&rid=giphy.gif&ct=g" width="666" />
 
 1. Install [Homebrew](https://brew.sh/)
 
@@ -105,31 +109,31 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
    1. The great thing about this is that you can customize your shell and add plugins. Unlike the old Bash shell, which does not look attractive and can make it difficult for you to use.
 
-```powershell
-sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-```
+      ```powershell
+      sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+      ```
 
-     1. **Choose your favorite theme**
+   - 1. **Choose your favorite theme**
 
-    There are [multiple themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) you can choose from. My favorite theme is [honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh) and it should look like in the screenshot:
+     There are [multiple themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes) you can choose from. My favorite theme is [honukai](https://github.com/oskarkrawczyk/honukai-iterm-zsh) and it should look like in the screenshot:
 
-    ![https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/honukai-theme.png](https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/honukai-theme.png)
+     ![https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/honukai-theme.png](https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/honukai-theme.png)
 
-    For compelete guide, dive into it's [docs](https://github.com/oskarkrawczyk/honukai-iterm-zsh).
+     For compelete guide, dive into it's [docs](https://github.com/oskarkrawczyk/honukai-iterm-zsh).
 
-    1. **Add useful oh-my-zsh plugins**
+     1. **Add useful oh-my-zsh plugins**
 
-    Oh-my-zsh is powered by plugins. I'll share my top 3 plugins.
+     Oh-my-zsh is powered by plugins. I'll share my top 3 plugins.
 
-    ```powershell
-    plugins=(
-        git
-        autojump
-        zsh-syntax-highlighting
-    )
-    ```
+     ```powershell
+     plugins=(
+         git
+         autojump
+         zsh-syntax-highlighting
+     )
+     ```
 
-1. ✳️ PLUGINS
+4. PLUGINS ✳️
 
    1. the `git` plugin
 
@@ -171,9 +175,9 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
    Then, activate the plugin in `~/.zshrc`:
 
    `plugins=(... zsh-syntax-highlighting)`
-   After adding the plugins to your `.zshrc` file, you have to restart zsh to activate them, using the command `source ~/.zshrc`.You can find all my settings of `.zshrc` [here](https://gist.githubusercontent.com/maoxiaoke/0f61f217c428dcfba48067622db83a8e/raw/78da5225ff3cdc8df38db28b8f872a6f6836cfc2/__Configurations__---zshrc.text).\*\*\*\*
+   After adding the plugins to your `.zshrc` file, you have to restart zsh to activate them, using the command `source ~/.zshrc`.You can find all my settings of `.zshrc` [here](https://gist.githubusercontent.com/maoxiaoke/0f61f217c428dcfba48067622db83a8e/raw/78da5225ff3cdc8df38db28b8f872a6f6836cfc2/__Configurations__---zshrc.text).
 
-1. CLI stuff
+5. CLI stuff
 
    1. get pnpm
 
@@ -185,11 +189,12 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 
 ## Install Apps from Homebrew
 
-### DEV
+<img src="https://media2.giphy.com/media/RqbkeCZGgipSo/200.webp?cid=ecf05e4780dqxbbvnrygr4iom0p6pp0wj48hkrq6dmgfw9hh&rid=200.webp&ct=g" height="466" />
+<img src="https://media4.giphy.com/media/aCGdw5s3Tmxko6h7dP/200w.webp?cid=ecf05e4780dqxbbvnrygr4iom0p6pp0wj48hkrq6dmgfw9hh&rid=200w.webp&ct=g" height="466" />
+
+### DEV 🧲
 
 **VS Code** `brew install --cask visual-studio-code`
-
-[Input Source Pro](https://inputsource.pro/) - A tool for multi-language users. `brew install --cask input-source-pro`
 
 ProtonVPN `brew install --cask protonvpn`
 
@@ -197,11 +202,9 @@ Python `brew install python@3.10`
 
 Github Desktop `brew install --cask github`
 
-Processing (= > catalina)`brew install --cask processing`
+[Processing](https://processing.org) (= > catalina)`brew install --cask processing`
 
 Unity Hub `brew install --cask unity-hub`
-
-Arduino (depricated)`brew install --cask arduino`
 
 Docker `brew install --cask docker`
 
@@ -211,15 +214,15 @@ Wireshark `brew install wireshark`
 
 Balena `brew install --cask balenaetcher`
 
+[Input Source Pro](https://inputsource.pro/) - A tool for multi-language users. `brew install --cask input-source-pro`
+
 TeamViewer `brew install --cask teamviewer`
 
-Dolphin `brew install --cask dolphin`
+Arduino 1.8 (officially discontinued upstream)`brew install --cask arduino`
 
-Dash `brew install --cask dash`
+### ADD-ONS 🔌
 
-Mactracker `brew install --cask mactracker`
-
-### ADD-ONS
+   <img src="https://media1.giphy.com/media/LoHShaZGVfJ96/200w.webp?cid=ecf05e47nptkno4f35t20ay4jp5tcxbrusg3n56lrbje8nfw&rid=200w.webp&ct=g" height="466" />
 
 **Notion** `brew install --cask notion`
 
@@ -235,7 +238,7 @@ Macs Fan Control `brew install --cask macs-fan-control`
 
 Helium `brew install --cask helium`
 
-Net Download **\*\*\*\***`brew install --cask netdownloadhelpercoapp`
+Net Download `brew install --cask netdownloadhelpercoapp`
 
 Aldente `brew install --cask aldente`
 
@@ -245,35 +248,35 @@ smfancontrol (old macs) `brew install --cask smcfancontrol`
 
 Caffeine(old macs) `brew install --cask caffeine`
 
-Bitwarden **\*\*\*\***`brew install --cask bitwarden` ([not working on M1](https://www.reddit.com/r/Bitwarden/comments/nn0gl0/direct_download_vs_app_store_what_the_difference/))
+Bitwarden `brew install --cask bitwarden` ([not working on M1](https://www.reddit.com/r/Bitwarden/comments/nn0gl0/direct_download_vs_app_store_what_the_difference/))
 
-### DOCS
-
-Numi `brew install --cask numi`
-
-LibreOffice `brew install --cask libreoffice`
+### DOCS 🖨️
 
 Notion `brew install --cask notion`
+
+[Numi](https://numi.app): the beautiful calculator `brew install --cask numi`
+
+LibreOffice `brew install --cask libreoffice`
 
 Dash `brew install --cask dash`
 
 Mactracker `brew install --cask mactracker`
 
-### BROWSERS
+### BROWSERS 🧯
 
-Brave `brew install --cask brave-browser`
+[Brave](https://brave.com) `brew install --cask brave-browser`
 
-Firefox Dev Edition `brew install --cask firefox-developer-edition`
+[Firefox Dev Edition](https://www.mozilla.org/en-US/firefox/developer/) `brew install --cask firefox-developer-edition`
 
 Firefox `brew install --cask firefox`
 
-Chrome \*\*\*\*`brew install --cask google-chrome`
+Tor `brew install tor`
 
-Tor (?)`brew install tor`
+Chrome `brew install --cask google-chrome`
 
-### MEDIA
+### MEDIA 💈
 
-- Affinity (v2)
+- [Affinity](https://affinity.serif.com/en-gb/)
 
   Designer `brew install --cask affinity-designer`
 
@@ -283,21 +286,19 @@ Tor (?)`brew install tor`
 
 Adobe CC `brew install --cask adobe-creative-cloud`
 
+ImageOptim `brew install --cask imageoptim`
+
 Figma `brew install --cask figma`
 
 Sketch `brew install --cask sketch`
 
 FontForge `brew install --cask fontforge`
 
-ImageOptim `brew install --cask imageoptim`
-
 Blender `brew install --cask blender`
-
-Sketchup(2017 discontinued) **\*\*\*\***`brew install --cask sketchup`
 
 IINA(replace VLC) `brew install --cask iina`
 
-Librecad (depricated, only for intel) `brew install --cask librecad`
+Sketchup(2017 discontinued) `brew install --cask sketchup`
 
 ### SOUND 💥
 
@@ -305,24 +306,25 @@ Spitfire Audio `brew install --cask spitfire-audio`
 
 Audacity `brew install --cask audacity`
 
-Ableton Live Lite `brew install --cask ableton-live-lite`
-
 Bfxr `brew install --cask bfxr`
+
+Ableton Live Lite `brew install --cask ableton-live-lite`
 
 BBC player `brew install --cask bbc-iplayer-downloads`
 
 ### SOCIAL + FUN 🎪
 
 Spotify `brew install --cask spotify`
+
 Skype `brew install --cask skype`
 
 Steam `brew install --cask steam`
 
-Dolphin `brew install --cask dolphin`
+[Dolphin](https://dolphin-emu.org) `brew install --cask dolphin`
 
 Discord `brew install --cask discord`
 
-Signal `brew install --cask signal`
+[Signal](https://signal.org) `brew install --cask signal`
 
 Telegram `brew install --cask telegram`
 
@@ -330,7 +332,7 @@ Zoom `brew install --cask zoom`
 
 Whatsapp `brew install --cask whatsapp`
 
-Messenger(>10.12) \*\*\*\*`brew install --cask messenger`
+Messenger(>10.12) `brew install --cask messenger`
 
 ## Install Apps from the Browser 🏄🏻‍♀️
 
