@@ -245,7 +245,7 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 - **Depricated ones**
 
-smfancontrol (old macs) `brew install --cask smcfancontrol`
+1. smfancontrol (old macs) `brew install --cask smcfancontrol`
 
 1. Caffeine(old macs) `brew install --cask caffeine`
 
@@ -265,9 +265,10 @@ smfancontrol (old macs) `brew install --cask smcfancontrol`
 
 ### BROWSERS 🧯
 
-[Brave](https://brave.com) `brew install --cask brave-browser`
+ <img src="https://media0.giphy.com/media/fvM5D7vFoACAM/giphy.gif?cid=ecf05e473dktuyswz15axeslcalpdo3roj3p3ghub8yc1u9m&rid=giphy.gif&ct=g" width="466" />
 
-1.
+1. [Brave](https://brave.com) `brew install --cask brave-browser`
+
 1. [Firefox Dev Edition](https://www.mozilla.org/en-US/firefox/developer/) `brew install --cask firefox-developer-edition`
 
 1. Firefox `brew install --cask firefox`
@@ -338,11 +339,14 @@ smfancontrol (old macs) `brew install --cask smcfancontrol`
 
 ## Install Apps from the Browser 🏄🏻‍♀️
 
-1. Office Suite
+1. [Aseprite](https://www.aseprite.org) (bought here) and then install it on Steam (optional)
 1. [DaVinci](https://www.blackmagicdesign.com/products/davinciresolve/)
 1. [CleanMyMac X](https://duckduckgo.com/?q=cleanmymac&t=osx)
+1. Office Suite
 
 ## Install Apps from App Store 🧽
+
+   <img src="https://media2.giphy.com/media/CTkWFZ1IDvsfS/giphy.webp?cid=ecf05e47weavtjh1zwitrd0bhooz9tb50tfe2gew99a1akff&rid=giphy.webp&ct=g" width="416" />
 
 ### Apps
 
@@ -369,6 +373,8 @@ smfancontrol (old macs) `brew install --cask smcfancontrol`
 1. Link Text Selector
 
 ## Terminal Commands 📼
+
+ <img src="https://media0.giphy.com/media/Rd7pEbE7rjZz8vySuU/200w.webp?cid=ecf05e4785rhz7hf3ft9pkpaq2f0gd463xmanfhaw74tfu3s&rid=200w.webp&ct=g" width="416" />
 
 ### Homebrew
 
