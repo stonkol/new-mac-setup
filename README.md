@@ -87,9 +87,8 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 ## Terminal set up 📟
 
-![terminal](https://giphy.com/gifs/iphone-video-game-sprite-26uf4LsTj87JjVDbO)
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
-<img src="https://media2.giphy.com/media/26uf4LsTj87JjVDbO/giphy.gif?cid=ecf05e47znj7hli7wiyzjp3li8vhjd89942bfub3yjsdwfn2&rid=giphy.gif&ct=g" width="40" height="40" />
+<!-- <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="400"/> -->
+<img src="https://media2.giphy.com/media/26uf4LsTj87JjVDbO/giphy.gif?cid=ecf05e47znj7hli7wiyzjp3li8vhjd89942bfub3yjsdwfn2&rid=giphy.gif&ct=g" width="400" />
 
 1. Install [Homebrew](https://brew.sh/)
 
