@@ -265,7 +265,7 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 ### BROWSERS 🧯
 
- <img src="https://media0.giphy.com/media/fvM5D7vFoACAM/giphy.gif?cid=ecf05e473dktuyswz15axeslcalpdo3roj3p3ghub8yc1u9m&rid=giphy.gif&ct=g" width="466" />
+ <img src="https://media0.giphy.com/media/fvM5D7vFoACAM/giphy.gif?cid=ecf05e473dktuyswz15axeslcalpdo3roj3p3ghub8yc1u9m&rid=giphy.gif&ct=g" width="427" />
 
 1. [Brave](https://brave.com) `brew install --cask brave-browser`
 
@@ -344,9 +344,9 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 1. [CleanMyMac X](https://duckduckgo.com/?q=cleanmymac&t=osx)
 1. Office Suite
 
-## Install Apps from App Store 🧽
+## Install Apps from the App Store 🧽
 
-   <img src="https://media2.giphy.com/media/CTkWFZ1IDvsfS/giphy.webp?cid=ecf05e47weavtjh1zwitrd0bhooz9tb50tfe2gew99a1akff&rid=giphy.webp&ct=g" width="416" />
+   <img src="https://media2.giphy.com/media/CTkWFZ1IDvsfS/giphy.webp?cid=ecf05e47weavtjh1zwitrd0bhooz9tb50tfe2gew99a1akff&rid=giphy.webp&ct=g" width="376" />
 
 ### Apps
 
@@ -374,7 +374,7 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 ## Terminal Commands 📼
 
- <img src="https://media0.giphy.com/media/Rd7pEbE7rjZz8vySuU/200w.webp?cid=ecf05e4785rhz7hf3ft9pkpaq2f0gd463xmanfhaw74tfu3s&rid=200w.webp&ct=g" width="416" />
+ <img src="https://media0.giphy.com/media/Rd7pEbE7rjZz8vySuU/200w.webp?cid=ecf05e4785rhz7hf3ft9pkpaq2f0gd463xmanfhaw74tfu3s&rid=200w.webp&ct=g" width="496" />
 
 ### Homebrew
 
