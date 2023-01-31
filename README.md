@@ -73,7 +73,7 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
       1. Tap to Click [x]
 
-      ![point click](point-click.webp)
+         ![point click](point-click.webp)
 
 1. More Gestures
 
@@ -81,13 +81,15 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
    1. Swipe between Screen [3-Finger]
 
-   1. [ ] [Change] Right click → on the right bottom corner
+   1. [Change] Right click → on the right bottom corner
 
       ![more gestures](more-gestures.webp)
 
 ## Terminal set up 📟
 
 ![terminal](https://giphy.com/gifs/iphone-video-game-sprite-26uf4LsTj87JjVDbO)
+<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" width="40" height="40" />
+<img src="https://media2.giphy.com/media/26uf4LsTj87JjVDbO/giphy.gif?cid=ecf05e47znj7hli7wiyzjp3li8vhjd89942bfub3yjsdwfn2&rid=giphy.gif&ct=g" width="40" height="40" />
 
 1. Install [Homebrew](https://brew.sh/)
 
