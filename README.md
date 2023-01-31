@@ -6,52 +6,84 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 ## System Preferences
 
-1. Trackpad
+1. Accessibility
 
-   1. [x] 3 Finger Dragging
-   1. [x] Tap to click
-   1. [ ] Swipe 2 finger last page
-   <!-- ![alt text][.jpg] -->
-   1. [ ] [Change] Right click → on the right bottom corner
-
-1. Change Cursor size in Accessibility
+   1. Change Cursor size
 
 1. Internet Accounts + Login iCloud + App Store
 
-1. Keyboard + Region
+1. Control Center
 
-   1. Language inputs
-      1. shortcurt → Input Sources → [x] Select previous input source (! alt + space)
-   1. Region (ireland: have euro, english, gregorian, close time zone, not imperialist UK)
+   1. Show audio icon [x]
+
+1. Siri & Spotlight
+
+   1. Siri [off]
+
+   1. [off] Search results
+
+   1. [Spotlight Privacy...]
 
 1. Dock + Menu Bar
 
-   1. [remove] Apps on the dock
-   2. [hide] Siri
-   3. [x] Autohide
-   4. [x] Show audio icon
-   5. [genie → scale] Minimize windows
+   1. [Remove] not used Apps from the dock
+
+   1. Minimize windows [Genie→Scale]
+
+   1. Minimise windows into application [x]
+
+   1. Automatically hide and show the Dock [x]
+
+   ![alt text][dock.webp]
 
 1. Security
 
    1. [immediately] Required password
+
    1. [x] Filevault
+
    1. Privacy -> turn off no neded [Location Services]
 
 1. Users & Groups
 
    1. [ ] Login Options > Show fast user switching as [icon]
 
-1. Spotlight
-
-   1. [ ] Turn off no needed categories
-   1. [+] Privacy
+1. Change Wallpaper
 
 1. Battery
 
    1. Change as you want.
 
-1. Change Wallpaper
+1. Keyboard + Region
+
+   1. Language inputs
+
+      1. shortcurt → Input Sources → [x] Select previous input source (! alt + space)
+
+   1. Region (ireland: have euro, english, gregorian, close time zone, not imperialist UK)
+
+1. Trackpad
+
+   1. Point & Click
+
+      1. Tracking Speed [Change]
+      1. Click [light]
+
+      1. Secondary click [Bottom-Right]
+
+      1. Tap to Click [x]
+
+      ![alt text][point-click.webp]
+
+1. More Gestures
+
+   1. Swipe 2 finger last page [off]
+
+   1. Swipe between Screen [3-Finger]
+
+   1. [ ] [Change] Right click → on the right bottom corner
+
+      ![alt text][more-gestures.webp]
 
 ## Terminal set up
 
@@ -94,59 +126,59 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
     )
     ```
 
-1.  PLUGGINS
+1. PLUGGINS
 
-    1. the `git` plugin
+   1. the `git` plugin
 
-    The [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin is enabled by default. It provides many aliases and a few useful functions.
+   The [git](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git) plugin is enabled by default. It provides many aliases and a few useful functions.
 
-    ![https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/git-plugin.png](https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/git-plugin.png)
+   ![https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/git-plugin.png](https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev/raw/main/git-plugin.png)
 
-    To use it, add `git` to the plugins array in your zshrc file:
+   To use it, add `git` to the plugins array in your zshrc file:
 
-    ```powershell
-    plugins=(git)
-    ```
+   ```powershell
+   plugins=(git)
+   ```
 
-    1. the `autojump` plugin
+   1. the `autojump` plugin
 
-    Use Homebrew to install [autojump](https://github.com/wting/autojump#installation).
+   Use Homebrew to install [autojump](https://github.com/wting/autojump#installation).
 
-    ```powershell
-    brew install autojump
-    ```
+   ```powershell
+   brew install autojump
+   ```
 
-    After that, add `autojump` to your zshrc file:
+   After that, add `autojump` to your zshrc file:
 
-    ```powershell
-    plugins=(... autojump)
+   ```powershell
+   plugins=(... autojump)
 
-    ```
+   ```
 
-    1. the `zsh-syntax-highlighting` plugin
+   1. the `zsh-syntax-highlighting` plugin
 
-    The installation of [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) may be tedious. But it worth the effort.
+   The installation of [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) may be tedious. But it worth the effort.
 
-    Clone the [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) repository in oh-my-zsh's plugins directory:
+   Clone the [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) repository in oh-my-zsh's plugins directory:
 
-    ```powershell
-    git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-    ```
+   ```powershell
+   git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+   ```
 
-    Then, activate the plugin in `~/.zshrc`:
+   Then, activate the plugin in `~/.zshrc`:
 
-    `plugins=(... zsh-syntax-highlighting)`
-    After adding the plugins to your `.zshrc` file, you have to restart zsh to activate them, using the command `source ~/.zshrc`.You can find all my settings of `.zshrc` [here](https://gist.githubusercontent.com/maoxiaoke/0f61f217c428dcfba48067622db83a8e/raw/78da5225ff3cdc8df38db28b8f872a6f6836cfc2/__Configurations__---zshrc.text).\*\*\*\*
+   `plugins=(... zsh-syntax-highlighting)`
+   After adding the plugins to your `.zshrc` file, you have to restart zsh to activate them, using the command `source ~/.zshrc`.You can find all my settings of `.zshrc` [here](https://gist.githubusercontent.com/maoxiaoke/0f61f217c428dcfba48067622db83a8e/raw/78da5225ff3cdc8df38db28b8f872a6f6836cfc2/__Configurations__---zshrc.text).\*\*\*\*
 
-1.  CLI stuff
+1. CLI stuff
 
-    1. get pnpm
+   1. get pnpm
 
-    [pnpm](https://pnpm.io/) is fast, disk space efficient package manager, works as an alternative of [npm](https://www.npmjs.com/). `$ brew install pnpm`
+   [pnpm](https://pnpm.io/) is fast, disk space efficient package manager, works as an alternative of [npm](https://www.npmjs.com/). `$ brew install pnpm`
 
-    1. get volta
+   1. get volta
 
-    manage multiple [Node.js](https://nodejs.org/en/) versions`curl https://get.volta.sh | bash`
+   manage multiple [Node.js](https://nodejs.org/en/) versions`curl https://get.volta.sh | bash`
 
 ## Install Apps from Homebrew
 
