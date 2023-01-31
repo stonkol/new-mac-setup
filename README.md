@@ -78,19 +78,18 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
       1. Tap to Click [x]
 
-         <!-- ![point click](point-click.webp) -->
          <img src="point-click.webp" width="500">
 
-1. More Gestures
+   1. More Gestures
 
-   1. Swipe 2 finger last page [off]
+      1. Swipe 2 finger last page [off]
 
-   1. Swipe between Screen [3-Finger]
+      1. Swipe between Screen [3-Finger]
 
-   1. [Change] Right click → on the right bottom corner
+      1. [Change] Right click → on the right bottom corner
 
-      <!-- ![more gestures](more-gestures.webp) -->
-      <img src="more-gestures.webp" width="500">
+         <!-- ![more gestures](more-gestures.webp) -->
+         <img src="more-gestures.webp" width="500">
 
 ## Terminal set up 📟
 
@@ -191,36 +190,36 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 ## Install Apps from Homebrew
 
-<img src="https://media2.giphy.com/media/RqbkeCZGgipSo/200.webp?cid=ecf05e4780dqxbbvnrygr4iom0p6pp0wj48hkrq6dmgfw9hh&rid=200.webp&ct=g" height="303" />
+<!-- <img src="https://media2.giphy.com/media/RqbkeCZGgipSo/200.webp?cid=ecf05e4780dqxbbvnrygr4iom0p6pp0wj48hkrq6dmgfw9hh&rid=200.webp&ct=g" height="303" /> -->
 <img src="https://media4.giphy.com/media/aCGdw5s3Tmxko6h7dP/200w.webp?cid=ecf05e4780dqxbbvnrygr4iom0p6pp0wj48hkrq6dmgfw9hh&rid=200w.webp&ct=g" height="303" />
 
 ### DEV 🧲
 
-**VS Code** `brew install --cask visual-studio-code`
+1. **VS Code** `brew install --cask visual-studio-code`
 
-ProtonVPN `brew install --cask protonvpn`
+1. ProtonVPN `brew install --cask protonvpn`
 
-Python `brew install python@3.10`
+1. Python `brew install python@3.10`
 
-Github Desktop `brew install --cask github`
+1. Github Desktop `brew install --cask github`
 
-[Processing](https://processing.org) (= > 10.15)`brew install --cask processing`
+1. [Processing](https://processing.org) (= > 10.15)`brew install --cask processing`
 
-Unity Hub `brew install --cask unity-hub`
+1. Unity Hub `brew install --cask unity-hub`
 
-Docker `brew install --cask docker`
+1. Docker `brew install --cask docker`
 
-Anaconda `brew install --cask anaconda`
+1. Anaconda `brew install --cask anaconda`
 
-Wireshark `brew install wireshark`
+1. Wireshark `brew install wireshark`
 
-[BalenaEtcher](https://www.balena.io/etcher) `brew install --cask balenaetcher`
+1. [BalenaEtcher](https://www.balena.io/etcher) `brew install --cask balenaetcher`
 
-[Input Source Pro](https://inputsource.pro/) - A tool for multi-language users. `brew install --cask input-source-pro`
+1. [Input Source Pro](https://inputsource.pro/) - A tool for multi-language users. `brew install --cask input-source-pro`
 
-TeamViewer `brew install --cask teamviewer`
+1. TeamViewer `brew install --cask teamviewer`
 
-Arduino 1.8 (officially discontinued upstream)`brew install --cask arduino`
+1. Arduino 1.8 (officially discontinued upstream)`brew install --cask arduino`
 
 ### ADD-ONS 🔌
 
@@ -228,120 +227,120 @@ Arduino 1.8 (officially discontinued upstream)`brew install --cask arduino`
 
 **Notion** `brew install --cask notion`
 
-[TopNotch](https://topnotch.app): turn menu bar to pure black (great for notched macs) `brew install --cask topnotch`
+1. [TopNotch](https://topnotch.app) - turn menu bar to pure black (great for notched macs) `brew install --cask topnotch`
 
-Dozer: collapse menu bar `brew install --cask dozer`
+1. Dozer: collapse menu bar `brew install --cask dozer`
 
-[Rectangle](https://rectangleapp.com): smart windows positioning `brew install --cask rectangle`
+1. [Rectangle](https://rectangleapp.com) - smart windows positioning `brew install --cask rectangle`
 
-[Karabiner](https://karabiner-elements.pqrs.org) `brew install --cask karabiner-elements`
+1. [Karabiner](https://karabiner-elements.pqrs.org) `brew install --cask karabiner-elements`
 
-Macs Fan Control `brew install --cask macs-fan-control`
+1. [Macs Fan Control](https://crystalidea.com/macs-fan-control/download) `brew install --cask macs-fan-control`
 
-Helium `brew install --cask helium`
+1. Helium `brew install --cask helium`
 
-Net Download `brew install --cask netdownloadhelpercoapp`
+1. Net Download `brew install --cask netdownloadhelpercoapp`
 
-[Aldente](https://medium.com/macoclock/aldente-useful-app-b8c302c47ceb): let battery to stop charging when... `brew install --cask aldente`
+1. [Aldente](https://medium.com/macoclock/aldente-useful-app-b8c302c47ceb) - let battery to stop charging when... `brew install --cask aldente`
 
 - **Depricated ones**
 
 smfancontrol (old macs) `brew install --cask smcfancontrol`
 
-Caffeine(old macs) `brew install --cask caffeine`
+1. Caffeine(old macs) `brew install --cask caffeine`
 
-Bitwarden `brew install --cask bitwarden` ([not working on M1](https://www.reddit.com/r/Bitwarden/comments/nn0gl0/direct_download_vs_app_store_what_the_difference/))
+1. Bitwarden `brew install --cask bitwarden` ([not working on M1](https://www.reddit.com/r/Bitwarden/comments/nn0gl0/direct_download_vs_app_store_what_the_difference/))
 
 ### DOCS 🖨️
 
-Notion `brew install --cask notion`
+1. Notion `brew install --cask notion`
 
-[Numi](https://numi.app): the beautiful calculator `brew install --cask numi`
+[Numi](https://numi.app) - the beautiful calculator `brew install --cask numi`
 
-LibreOffice `brew install --cask libreoffice`
+1. LibreOffice `brew install --cask libreoffice`
 
-Dash `brew install --cask dash`
+1. Dash `brew install --cask dash`
 
-Mactracker `brew install --cask mactracker`
+1. Mactracker `brew install --cask mactracker`
 
 ### BROWSERS 🧯
 
 [Brave](https://brave.com) `brew install --cask brave-browser`
 
-[Firefox Dev Edition](https://www.mozilla.org/en-US/firefox/developer/) `brew install --cask firefox-developer-edition`
+1.
+1. [Firefox Dev Edition](https://www.mozilla.org/en-US/firefox/developer/) `brew install --cask firefox-developer-edition`
 
-Firefox `brew install --cask firefox`
+1. Firefox `brew install --cask firefox`
 
-Tor `brew install tor`
+1. Tor `brew install tor`
 
-Chrome `brew install --cask google-chrome`
+1. Chrome `brew install --cask google-chrome`
 
 ### MEDIA 💈
 
-- [Affinity](https://affinity.serif.com/en-gb/)
+1. [Affinity](https://affinity.serif.com/en-gb/)
 
-  Designer `brew install --cask affinity-designer`
+   1. Designer `brew install --cask affinity-designer`
 
-  Photo `brew install --cask affinity-photo`
+   1. Photo `brew install --cask affinity-photo`
 
-  Publisher `brew install --cask affinity-publisher`
+   1. Publisher `brew install --cask affinity-publisher`
 
-Adobe CC `brew install --cask adobe-creative-cloud`
+1. Adobe CC `brew install --cask adobe-creative-cloud`
 
-[ImageOptim](https://imageoptim.com/mac) remove metadata of pics and compress `brew install --cask imageoptim`
+1. [ImageOptim](https://imageoptim.com/mac) - remove metadata of pics and compress `brew install --cask imageoptim`
 
-Figma `brew install --cask figma`
+1. Figma `brew install --cask figma`
 
-Sketch `brew install --cask sketch`
+1. Sketch `brew install --cask sketch`
 
-Blender `brew install --cask blender`
+1. [Blender](https://www.blender.org) `brew install --cask blender`
 
-FontForge `brew install --cask fontforge`
+1. [FontForge](https://fontforge.org/en-US/) - open source font editor `brew install --cask fontforge`
 
-IINA (mocOS-ish VLC) `brew install --cask iina`
+1. [IINA](https://iina.io) (mocOS-ish VLC) `brew install --cask iina`
 
-Sketchup (2017 discontinued) `brew install --cask sketchup`
+1. Sketchup (2017 discontinued) `brew install --cask sketchup`
 
 ### SOUND 💥
 
-Spitfire Audio `brew install --cask spitfire-audio`
+1. [Spitfire Audio](https://www.spitfireaudio.com/spitfire-audio-strings) `brew install --cask spitfire-audio`
 
-Audacity `brew install --cask audacity`
+1. Audacity `brew install --cask audacity`
 
-Bfxr `brew install --cask bfxr`
+1. Bfxr `brew install --cask bfxr`
 
-Ableton Live Lite `brew install --cask ableton-live-lite`
+1. Ableton Live Lite `brew install --cask ableton-live-lite`
 
-BBC player `brew install --cask bbc-iplayer-downloads`
+1. BBC player `brew install --cask bbc-iplayer-downloads`
 
 ### SOCIAL + FUN 🎪
 
-Spotify `brew install --cask spotify`
+1. Spotify `brew install --cask spotify`
 
-Skype `brew install --cask skype`
+1. Skype `brew install --cask skype`
 
-Steam `brew install --cask steam`
+1. Steam `brew install --cask steam`
 
-[Dolphin](https://dolphin-emu.org) `brew install --cask dolphin`
+1. [Dolphin](https://dolphin-emu.org) `brew install --cask dolphin`
 
-Discord `brew install --cask discord`
+1. Discord `brew install --cask discord`
 
-[Signal](https://signal.org) `brew install --cask signal`
+1. [Signal](https://signal.org) `brew install --cask signal`
 
-Telegram `brew install --cask telegram`
+1. Telegram `brew install --cask telegram`
 
-Zoom `brew install --cask zoom`
+1. Zoom `brew install --cask zoom`
 
-Whatsapp `brew install --cask whatsapp`
+1. Whatsapp `brew install --cask whatsapp`
 
-Messenger (>10.12) `brew install --cask messenger`
+1. Messenger (>10.12) `brew install --cask messenger`
 
 ## Install Apps from the Browser 🏄🏻‍♀️
 
 1. Office Suite
-2. DaVinci
-3. Logic Pro
-4. CleanMyMac X
+1. [DaVinci](https://www.blackmagicdesign.com/products/davinciresolve/)
+1. [CleanMyMac X](https://duckduckgo.com/?q=cleanmymac&t=osx)
 
 ## Install Apps from App Store 🧽
 
@@ -374,26 +373,41 @@ Messenger (>10.12) `brew install --cask messenger`
 ### Homebrew
 
 1. Example usage:
+
    brew search TEXT|/REGEX/
+
    brew info [FORMULA|CASK...]
+
    brew install FORMULA|CASK...
+
    brew update
+
    brew upgrade [FORMULA|CASK...]
+
    brew uninstall FORMULA|CASK...
+
    brew list [FORMULA|CASK...]
 
 1. Troubleshooting:
+
    brew config
+
    brew doctor
+
    brew install --verbose --debug FORMULA|CASK
 
 1. Contributing:
+
    brew create URL [--no-fetch]
+
    brew edit [FORMULA|CASK...]
 
 1. Further help:
+
    brew commands
+
    brew help [COMMAND]
+
    man brew [link](https://docs.brew.sh)
 
 ### BASH
@@ -472,7 +486,7 @@ prettier
 
 ### SASS
 
-///////// POSITION ////////////
+POSITION
 
 `"Position Fixed": {`
 
