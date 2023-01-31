@@ -1,10 +1,10 @@
-# NEW MACBOOK DEV SETUP
+# NEW MACBOOK 💻 DEV SETUP
 
 Set up for macOS system preferences, homebrew, terminal, programs, plug-ins and more.
 
 This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev) set up, also I included commands and free DLCs.
 
-## System Preferences
+## System Preferences 🎛️
 
 1. Accessibility
 
@@ -34,7 +34,7 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
    1. Automatically hide and show the Dock [x]
 
-   ![alt text][dock.webp]
+   ![dock](dock.webp)
 
 1. Security
 
@@ -73,7 +73,7 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
       1. Tap to Click [x]
 
-      ![alt text][point-click.webp]
+      ![point click](point-click.webp)
 
 1. More Gestures
 
@@ -83,9 +83,11 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
    1. [ ] [Change] Right click → on the right bottom corner
 
-      ![alt text][more-gestures.webp]
+      ![more gestures](more-gestures.webp)
 
-## Terminal set up
+## Terminal set up 📟
+
+![terminal](https://giphy.com/gifs/iphone-video-game-sprite-26uf4LsTj87JjVDbO)
 
 1. Install [Homebrew](https://brew.sh/)
 
@@ -126,7 +128,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
     )
     ```
 
-1. PLUGGINS
+1. ✳️ PLUGINS
 
    1. the `git` plugin
 
@@ -296,7 +298,7 @@ IINA(replace VLC) `brew install --cask iina`
 
 Librecad (depricated, only for intel) `brew install --cask librecad`
 
-### SOUND
+### SOUND 💥
 
 Spitfire Audio `brew install --cask spitfire-audio`
 
@@ -308,7 +310,7 @@ Bfxr `brew install --cask bfxr`
 
 BBC player `brew install --cask bbc-iplayer-downloads`
 
-### SOCIAL + FUN
+### SOCIAL + FUN 🎪
 
 Spotify `brew install --cask spotify`
 Skype `brew install --cask skype`
@@ -329,14 +331,14 @@ Whatsapp `brew install --cask whatsapp`
 
 Messenger(>10.12) \*\*\*\*`brew install --cask messenger`
 
-## Install Apps from the Browser
+## Install Apps from the Browser 🏄🏻‍♀️
 
 1. Office Suite
 2. DaVinci
 3. Logic Pro
 4. CleanMyMac X
 
-## Install Apps from App Store
+## Install Apps from App Store 🧽
 
 ### Apps
 
@@ -362,7 +364,7 @@ Messenger(>10.12) \*\*\*\*`brew install --cask messenger`
 1. PiPifier
 1. Link Text Selector
 
-## Terminal Commands
+## Terminal Commands 📼
 
 ### Homebrew
 
