@@ -6,13 +6,15 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 ## System Preferences 🎛️
 
-<img src="https://media1.giphy.com/media/3oKIPnFtTTc4iDHGmI/200w.webp?cid=ecf05e47bo5ycdzfxrbskwdzfakfotacdixd4rz4fxmff82e&rid=200w.webp&ct=g" width="666" />
+<img src="https://media1.giphy.com/media/3oKIPnFtTTc4iDHGmI/200w.webp?cid=ecf05e47bo5ycdzfxrbskwdzfakfotacdixd4rz4fxmff82e&rid=200w.webp&ct=g" width="466" />
 
 1. Accessibility
 
    1. Change Cursor size
 
-1. Internet Accounts + Login iCloud + App Store
+1. Login iCloud and App Store
+
+1. Login Internet Accounts
 
 1. Control Center
 
@@ -92,7 +94,7 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 ## Terminal set up 📟
 
-   <img src="https://media2.giphy.com/media/26uf4LsTj87JjVDbO/giphy.gif?cid=ecf05e47znj7hli7wiyzjp3li8vhjd89942bfub3yjsdwfn2&rid=giphy.gif&ct=g" width="666" />
+   <img src="https://media2.giphy.com/media/26uf4LsTj87JjVDbO/giphy.gif?cid=ecf05e47znj7hli7wiyzjp3li8vhjd89942bfub3yjsdwfn2&rid=giphy.gif&ct=g" width="566" />
 
 1. Install [Homebrew](https://brew.sh/)
 
@@ -189,8 +191,8 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 ## Install Apps from Homebrew
 
-<img src="https://media2.giphy.com/media/RqbkeCZGgipSo/200.webp?cid=ecf05e4780dqxbbvnrygr4iom0p6pp0wj48hkrq6dmgfw9hh&rid=200.webp&ct=g" height="466" />
-<img src="https://media4.giphy.com/media/aCGdw5s3Tmxko6h7dP/200w.webp?cid=ecf05e4780dqxbbvnrygr4iom0p6pp0wj48hkrq6dmgfw9hh&rid=200w.webp&ct=g" height="466" />
+<img src="https://media2.giphy.com/media/RqbkeCZGgipSo/200.webp?cid=ecf05e4780dqxbbvnrygr4iom0p6pp0wj48hkrq6dmgfw9hh&rid=200.webp&ct=g" height="303" />
+<img src="https://media4.giphy.com/media/aCGdw5s3Tmxko6h7dP/200w.webp?cid=ecf05e4780dqxbbvnrygr4iom0p6pp0wj48hkrq6dmgfw9hh&rid=200w.webp&ct=g" height="303" />
 
 ### DEV 🧲
 
@@ -202,7 +204,7 @@ Python `brew install python@3.10`
 
 Github Desktop `brew install --cask github`
 
-[Processing](https://processing.org) (= > catalina)`brew install --cask processing`
+[Processing](https://processing.org) (= > 10.15)`brew install --cask processing`
 
 Unity Hub `brew install --cask unity-hub`
 
@@ -212,7 +214,7 @@ Anaconda `brew install --cask anaconda`
 
 Wireshark `brew install wireshark`
 
-Balena `brew install --cask balenaetcher`
+[BalenaEtcher](https://www.balena.io/etcher) `brew install --cask balenaetcher`
 
 [Input Source Pro](https://inputsource.pro/) - A tool for multi-language users. `brew install --cask input-source-pro`
 
@@ -222,17 +224,17 @@ Arduino 1.8 (officially discontinued upstream)`brew install --cask arduino`
 
 ### ADD-ONS 🔌
 
-   <img src="https://media1.giphy.com/media/LoHShaZGVfJ96/200w.webp?cid=ecf05e47nptkno4f35t20ay4jp5tcxbrusg3n56lrbje8nfw&rid=200w.webp&ct=g" height="466" />
+   <img src="https://media1.giphy.com/media/LoHShaZGVfJ96/200w.webp?cid=ecf05e47nptkno4f35t20ay4jp5tcxbrusg3n56lrbje8nfw&rid=200w.webp&ct=g" width="366" />
 
 **Notion** `brew install --cask notion`
 
-TopNotch `brew install --cask topnotch`
+[TopNotch](https://topnotch.app): turn menu bar to pure black (great for notched macs) `brew install --cask topnotch`
 
-Dozer `brew install --cask dozer`
+Dozer: collapse menu bar `brew install --cask dozer`
 
-Rectangle `brew install --cask rectangle`
+[Rectangle](https://rectangleapp.com): smart windows positioning `brew install --cask rectangle`
 
-Karabiner `brew install --cask karabiner-elements`
+[Karabiner](https://karabiner-elements.pqrs.org) `brew install --cask karabiner-elements`
 
 Macs Fan Control `brew install --cask macs-fan-control`
 
@@ -240,7 +242,7 @@ Helium `brew install --cask helium`
 
 Net Download `brew install --cask netdownloadhelpercoapp`
 
-Aldente `brew install --cask aldente`
+[Aldente](https://medium.com/macoclock/aldente-useful-app-b8c302c47ceb): let battery to stop charging when... `brew install --cask aldente`
 
 - **Depricated ones**
 
@@ -286,19 +288,19 @@ Chrome `brew install --cask google-chrome`
 
 Adobe CC `brew install --cask adobe-creative-cloud`
 
-ImageOptim `brew install --cask imageoptim`
+[ImageOptim](https://imageoptim.com/mac) remove metadata of pics and compress `brew install --cask imageoptim`
 
 Figma `brew install --cask figma`
 
 Sketch `brew install --cask sketch`
 
-FontForge `brew install --cask fontforge`
-
 Blender `brew install --cask blender`
 
-IINA(replace VLC) `brew install --cask iina`
+FontForge `brew install --cask fontforge`
 
-Sketchup(2017 discontinued) `brew install --cask sketchup`
+IINA (mocOS-ish VLC) `brew install --cask iina`
+
+Sketchup (2017 discontinued) `brew install --cask sketchup`
 
 ### SOUND 💥
 
@@ -332,7 +334,7 @@ Zoom `brew install --cask zoom`
 
 Whatsapp `brew install --cask whatsapp`
 
-Messenger(>10.12) `brew install --cask messenger`
+Messenger (>10.12) `brew install --cask messenger`
 
 ## Install Apps from the Browser 🏄🏻‍♀️
 
