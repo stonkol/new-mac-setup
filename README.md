@@ -299,7 +299,7 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 1. [FontForge](https://fontforge.org/en-US/) - open source font editor `brew install --cask fontforge`
 
-1. [IINA](https://iina.io) (mocOS-ish VLC) `brew install --cask iina`
+1. [IINA](https://iina.io) (macOS-ish VLC) `brew install --cask iina`
 
 1. Sketchup (2017 discontinued) `brew install --cask sketchup`
 
