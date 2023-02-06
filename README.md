@@ -323,6 +323,10 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 1. Steam `brew install --cask steam`
 
+   1. Install Aseprite
+
+   1. Download and install [BG Auto-Scroll Toolbar](https://carbscode.itch.io/bg-auto-scroll-toolbar/download/Eje4FCYByWEF0QPTH8v7mLqTHc2GP82qmCNg1L7_)
+
 1. [Dolphin](https://dolphin-emu.org) `brew install --cask dolphin`
 
 1. Discord `brew install --cask discord`
@@ -343,6 +347,8 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 1. [DaVinci](https://www.blackmagicdesign.com/products/davinciresolve/)
 1. [CleanMyMac X](https://duckduckgo.com/?q=cleanmymac&t=osx)
 1. Office Suite
+1. [Pico CAD](https://johanpeitz.itch.io/picocad)
+1. [BG Auto-Scroll Toolbar](https://carbscode.itch.io/bg-auto-scroll-toolbar/download/Eje4FCYByWEF0QPTH8v7mLqTHc2GP82qmCNg1L7_) (Aseprite plugins)
 
 ## Install Apps from the App Store 🧽
 
