@@ -237,6 +237,8 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 1. [Macs Fan Control](https://crystalidea.com/macs-fan-control/download) `brew install --cask macs-fan-control`
 
+1. [itsycal](https://www.mowglii.com/itsycal/) - cute calendar menu bar `brew install --cask itsycal`
+
 1. Helium `brew install --cask helium`
 
 1. Net Download `brew install --cask netdownloadhelpercoapp`
