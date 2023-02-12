@@ -59,6 +59,10 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
    1. Change as you want.
 
+1. Users & Group
+
+   1. [ ] Allow users to reset using Apple ID
+
 1. Keyboard + Region
 
    1. Language inputs
@@ -384,6 +388,98 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
  <img src="https://media0.giphy.com/media/Rd7pEbE7rjZz8vySuU/200w.webp?cid=ecf05e4785rhz7hf3ft9pkpaq2f0gd463xmanfhaw74tfu3s&rid=200w.webp&ct=g" width="496" />
 
+### SIMPLE CMDS
+
+- `clear`
+
+  `man` manual
+
+  `df -h` how much space is in your disk
+
+  `whoami` tell you the user you are
+
+  `ps` show all the processes in your mac
+
+  `ps -ax`
+
+  `top` showing your processes in realtime
+
+  `top -o rsize` showing your memory apps in realtime
+
+  `bash` change to
+
+  `zsh` change to
+
+  `uptime` how much time has your mac wotking
+
+  `history` command history
+
+  ctrl + C to exit
+
+### FILES
+
+`cd` go to directory
+
+`ls` list current folder files
+
+`open` open a file
+
+`cp` copy files
+
+`ditto` better version of copy files
+
+`nano` edit a file
+
+`mv` move files
+
+`diff` compare files
+
+### BREW installs
+
+1. `cmatrix` show matrix
+
+   1. `brew install cmatrix` to install
+
+   1. ctrl + C to exit
+
+1. `asciiquarium` show an aquarium
+
+   1. `brew install asciiquarium`
+
+1. `toilet [smt]` convert text to ascii
+
+   1. `brew install toilet`
+
+1. `tetris` play tetris
+
+   1. `brew install samtay/tui/tetris`
+
+### INTERNET
+
+1. `ping` check if the website is working
+
+1. `ifconfig` know your ip addres
+
+1. `ifconfig en0 | grep inet | awk ‘{ print $2 }’` only show ipv6 and 4
+
+1. `traceroute [website]` trace the route to go to a website
+
+1. `dig [website]` dig in DNS
+
+1. `curl [file]` download a file from the internet
+
+1. `curl [wttr.in/[city]](http://wttr.in/[city])` show the weather
+
+### SECURITY
+
+1. [Allow Apps from Anywhere (Gatekeeper](http://osxdaily.com/2016/09/27/allow-apps-from-anywhere-macos-gatekeeper/))
+   `sudo spctl --master-disable`
+1. Delete all the download history (from any app that lets you download files. This can include torrents, cat photos, porn—anything.)
+   **`sqlite3 ~/Library/Preferences/com.apple.LaunchServices.QuarantineEventsV* 'delete from LSQuarantineEvent'`**
+1. Use Touch ID for sudo
+   [https://youtu.be/qOrlYzqXPa8?t=644](https://youtu.be/qOrlYzqXPa8?t=644)
+   `sudo nano /etc/pam.d/sudo`
+
 ### Homebrew
 
 1. Example usage:
@@ -424,10 +520,11 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
    man brew [link](https://docs.brew.sh)
 
-### BASH
+### FUN
 
+- Mac speech
+  `say [put the phrase]`
 - 🔋BEEP → Plug the Power
-
   iPhone charging sound
 
   ```powershell
@@ -435,7 +532,6 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
   ```
 
 - SCREENSHOOTS
-
   Screenshot jpg(or tiff, gif)
 
   ```powershell
@@ -448,15 +544,14 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
   defaults write com.apple.screencapture name "capturajun"
   ```
 
-- [Allow Apps from Anywhere (Gatekeeper](http://osxdaily.com/2016/09/27/allow-apps-from-anywhere-macos-gatekeeper/))
-
-  `sudo spctl --master-disable`
-
 - Kill The Dashboard
 
   ```powershell
   defaults write com.apple.dashboard mcx-disabled -boolean TRUE
   ```
+
+- Stay awake while using the terminal
+  `caffeinate`
 
 ## VS CODE plugins
 
