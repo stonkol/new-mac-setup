@@ -2,7 +2,7 @@
 
 Set up for macOS system preferences, homebrew, terminal, programs, plug-ins and more.
 
-This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev) set up, also I included commands and free DLCs.
+This is my modified version of [maoxiaoke](https://github.com/maoxiaoke/setup-a-mac-for-frontend-dev) set up, also I included commands and free DLCs.
 
 ## System Preferences 🎛️
 
