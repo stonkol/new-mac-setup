@@ -10,7 +10,7 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 1. Accessibility
 
-   1. Change Cursor size
+   1. Change Cursor size -> 1 step bigger
 
 1. Login iCloud and App Store
 
@@ -32,6 +32,8 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
    1. [Remove] not used Apps from the dock
 
+   1. [ ] Siri
+
    1. Minimize windows [Genie→Scale]
 
    1. Minimise windows into application [x]
@@ -47,7 +49,9 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
    1. [x] Filevault
 
-   1. Privacy -> turn off no neded [Location Services]
+   1. [x] Firewall
+
+   1. Privacy -> turn off no neded [Location_Services]
 
 1. Users & Groups
 
@@ -69,7 +73,7 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
       1. shortcurt → Input Sources → [x] Select previous input source (! alt + space)
 
-   1. Region (ireland: have euro, english, gregorian, close time zone, not imperialist UK)
+   1. Region (Ireland: have euro, english, gregorian, close time zone, not imperialist UK)
 
 1. Trackpad
 
@@ -103,8 +107,7 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
    `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 
-   Some users may wish to opt-out of Homebrew’s default “Anonymous Aggregate User Behaviour Analytics” tracking, which you can do with the following command after installation:
-   `brew analytics off`
+   Opt-out Homebrew’s analytics: `brew analytics off`
 
 2. Install [iTerm2](https://iterm2.com/)
 
@@ -194,14 +197,11 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 ## Install Apps from Homebrew
 
-<!-- <img src="https://media2.giphy.com/media/RqbkeCZGgipSo/200.webp?cid=ecf05e4780dqxbbvnrygr4iom0p6pp0wj48hkrq6dmgfw9hh&rid=200.webp&ct=g" height="303" /> -->
 <img src="https://media4.giphy.com/media/aCGdw5s3Tmxko6h7dP/200w.webp?cid=ecf05e4780dqxbbvnrygr4iom0p6pp0wj48hkrq6dmgfw9hh&rid=200w.webp&ct=g" height="303" />
 
 ### DEV 🧲
 
 1. **VS Code** `brew install --cask visual-studio-code`
-
-1. ProtonVPN `brew install --cask protonvpn`
 
 1. Python `brew install python@3.10`
 
@@ -213,27 +213,29 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 1. Docker `brew install --cask docker`
 
-1. Anaconda `brew install --cask anaconda`
-
 1. Wireshark `brew install wireshark`
+
+1. VeraCrypt `brew install --cask veracrypt`
 
 1. [BalenaEtcher](https://www.balena.io/etcher) `brew install --cask balenaetcher`
 
 1. [Input Source Pro](https://inputsource.pro/) - A tool for multi-language users. `brew install --cask input-source-pro`
 
-1. TeamViewer `brew install --cask teamviewer`
-
-1. Arduino 1.8 (officially discontinued upstream)`brew install --cask arduino`
+1. Mactracker brew `install --cask mactracker`
 
 ### ADD-ONS 🔌
 
-   <img src="https://media1.giphy.com/media/LoHShaZGVfJ96/200w.webp?cid=ecf05e47nptkno4f35t20ay4jp5tcxbrusg3n56lrbje8nfw&rid=200w.webp&ct=g" width="366" />
+<img src="https://media1.giphy.com/media/LoHShaZGVfJ96/200w.webp?cid=ecf05e47nptkno4f35t20ay4jp5tcxbrusg3n56lrbje8nfw&rid=200w.webp&ct=g" width="366" />
 
-**Notion** `brew install --cask notion`
+1. ProtonVPN `brew install --cask protonvpn` (Swiss, fast and no logs)
 
-1. [TopNotch](https://topnotch.app) - turn menu bar to pure black (great for notched macs) `brew install --cask topnotch`
+1. [Notion](https://protonvpn.com) `brew install --cask notion`
 
-1. Dozer: collapse menu bar `brew install --cask dozer`
+1. [Better Display](https://github.com/waydabber/BetterDisplay) `brew install --cask betterdisplay` LevelUp display customizations on the menu bar
+
+1. [TopNotch](https://topnotch.app) `brew install --cask topnotch` (turn menu bar to pure black (great for notched macs))
+
+1. Dozer `brew install --cask dozer` (Collapse menu bar)
 
 1. [Rectangle](https://rectangleapp.com) - smart windows positioning `brew install --cask rectangle`
 
@@ -261,7 +263,7 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 1. Notion `brew install --cask notion`
 
-[Numi](https://numi.app) - the beautiful calculator `brew install --cask numi`
+1. [Numi](https://numi.app) - the beautiful calculator `brew install --cask numi`
 
 1. LibreOffice `brew install --cask libreoffice`
 
@@ -273,19 +275,15 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
  <img src="https://media0.giphy.com/media/fvM5D7vFoACAM/giphy.gif?cid=ecf05e473dktuyswz15axeslcalpdo3roj3p3ghub8yc1u9m&rid=giphy.gif&ct=g" width="427" />
 
-1. [Brave](https://brave.com) `brew install --cask brave-browser`
+1. [Orion](https://browser.kagi.com) `brew install --cask orion` (WebKit browser with Firefox/Chrome plugins, zero telemetry, and dupper cool customizations)
+
+1. [Brave](https://brave.com) `brew install --cask brave-browser` (replace Chrome)
 
 1. [Firefox Dev Edition](https://www.mozilla.org/en-US/firefox/developer/) `brew install --cask firefox-developer-edition`
 
-1. Firefox `brew install --cask firefox`
-
-1. Tor `brew install tor`
-
-1. Chrome `brew install --cask google-chrome`
-
 ### MEDIA 💈
 
-1. [Affinity](https://affinity.serif.com/en-gb/)
+1. [Affinity](https://affinity.serif.com/en-gb/) (it will install ver. 2)
 
    1. Designer `brew install --cask affinity-designer`
 
@@ -305,13 +303,11 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 1. [FontForge](https://fontforge.org/en-US/) - open source font editor `brew install --cask fontforge`
 
-1. [IINA](https://iina.io) (macOS-ish VLC) `brew install --cask iina`
-
-1. Sketchup (2017 discontinued) `brew install --cask sketchup`
-
-### SOUND 💥
+1. [IINA](https://iina.io) (replace VLC) `brew install --cask iina`
 
 1. [Spitfire Audio](https://www.spitfireaudio.com/spitfire-audio-strings) `brew install --cask spitfire-audio`
+
+1. Spotify `brew install --cask spotify`
 
 1. Audacity `brew install --cask audacity`
 
@@ -321,21 +317,37 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 1. BBC player `brew install --cask bbc-iplayer-downloads`
 
-### SOCIAL + FUN 🎪
+### for Terminal
 
-1. Spotify `brew install --cask spotify`
+1. exa ($ls replacement) `brew install exa`
+
+1. diff `brew install diff-so-fancy`
+
+1. bat (better $cat) `brew install bat`
+
+1. tmux `brew install tmux`
+
+1. Matrix `brew install cmatrix` ctrl+C to exit
+
+1. show an aquarium `brew install asciiquarium`
+
+1. toilet [smt] (convert text to ascii) `brew install toilet`
+
+1. play tetris `brew install samtay/tui/tetris`
+
+### SOCIAL + FUN 🎪
 
 1. Skype `brew install --cask skype`
 
 1. Steam `brew install --cask steam`
 
-   1. Install Aseprite
+   1. Install Aseprite in **Steam**
 
    1. Download and install [BG Auto-Scroll Toolbar](https://carbscode.itch.io/bg-auto-scroll-toolbar/download/Eje4FCYByWEF0QPTH8v7mLqTHc2GP82qmCNg1L7_)
 
 1. [Dolphin](https://dolphin-emu.org) `brew install --cask dolphin`
 
-1. Discord `brew install --cask discord`
+1. Discord `brew install --cask discord` (can also install the web app from Safari)
 
 1. [Signal](https://signal.org) `brew install --cask signal`
 
@@ -343,18 +355,20 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 1. Zoom `brew install --cask zoom`
 
-1. Whatsapp `brew install --cask whatsapp`
+1. Whatsapp `brew install --cask whatsapp` (can also install the web app from Safari)
 
-1. Messenger (>10.12) `brew install --cask messenger`
+1. Messenger (>10.12) `brew install --cask messenger` (can also install the web app from Safari)
 
 ## Install Apps from the Browser 🏄🏻‍♀️
 
 1. [Aseprite](https://www.aseprite.org) (bought here) and then install it on Steam (optional)
 1. [DaVinci](https://www.blackmagicdesign.com/products/davinciresolve/)
-1. [CleanMyMac X](https://duckduckgo.com/?q=cleanmymac&t=osx)
-1. Office Suite
+1. [OnyxX](https://titanium-software.fr/en/onyx.html) (few cleaner apps that really works, replace CleanMyMac)
+1. [Arduino](https://www.arduino.cc/en/software)
+1. [Transmission](https://transmissionbt.com/download)
 1. [Pico CAD](https://johanpeitz.itch.io/picocad)
 1. [BG Auto-Scroll Toolbar](https://carbscode.itch.io/bg-auto-scroll-toolbar/download/Eje4FCYByWEF0QPTH8v7mLqTHc2GP82qmCNg1L7_) (Aseprite plugins)
+1. Office Suite
 
 ## Install Apps from the App Store 🧽
 
@@ -433,26 +447,6 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 `mv` move files
 
 `diff` compare files
-
-### BREW installs
-
-1. `cmatrix` show matrix
-
-   1. `brew install cmatrix` to install
-
-   1. ctrl + C to exit
-
-1. `asciiquarium` show an aquarium
-
-   1. `brew install asciiquarium`
-
-1. `toilet [smt]` convert text to ascii
-
-   1. `brew install toilet`
-
-1. `tetris` play tetris
-
-   1. `brew install samtay/tui/tetris`
 
 ### INTERNET
 
@@ -555,11 +549,11 @@ This is my modiefied version of [maoxiaoke](https://github.com/maoxiaoke/setup-a
 
 ## VS CODE plugins
 
+<img src="https://media2.giphy.com/media/RqbkeCZGgipSo/200.webp?cid=ecf05e4780dqxbbvnrygr4iom0p6pp0wj48hkrq6dmgfw9hh&rid=200.webp&ct=g" height="303" />
+
 sass compiler
 
 live server
-
-tabnine (copilot like)
 
 prettier
 
