@@ -6,7 +6,7 @@ This is my modified version of [maoxiaoke](https://github.com/maoxiaoke/setup-a-
 
 ## System Preferences 🎛️
 
-<img src="https://media1.giphy.com/media/3oKIPnFtTTc4iDHGmI/200w.webp?cid=ecf05e47bo5ycdzfxrbskwdzfakfotacdixd4rz4fxmff82e&rid=200w.webp&ct=g" width="466" />
+<!-- <img src="https://media1.giphy.com/media/3oKIPnFtTTc4iDHGmI/200w.webp?cid=ecf05e47bo5ycdzfxrbskwdzfakfotacdixd4rz4fxmff82e&rid=200w.webp&ct=g" width="466" /> -->
 
 1. Accessibility
 
@@ -40,8 +40,7 @@ This is my modified version of [maoxiaoke](https://github.com/maoxiaoke/setup-a-
 
    1. Automatically hide and show the Dock [x]
 
-   <!-- ![dock](dock.webp) -->
-      <img src="dock.webp" width="500">
+    <!-- <img src="dock.webp" width="500"> -->
 
 1. Security
 

@@ -12,16 +12,21 @@ C    | Wrap
 
 - most popular
 - macOS only
+- GPU accelerated Metal
 - Slower
+- Native system support (swift, notifications...)
 - official highlights: Middle Button Paste, Text Selection, Split Panes, Hotkey Window, Regular Expression Search, Autocomplete, Focus Follows Mouse, Notification Center Support, Triggers, Tmux Integration, Coprocesses, Inline Images, Password Manager, Python Scripting API, Status Bar
 
 ### [Alacritty](https://alacritty.org)
 
 `$ brew install --cask alacritty`
+[GitHub](https://github.com/alacritty/alacritty)
 
-- Fast (gpu-accelerated)
-- minimalist and cleaner
+- Fast (gpu-accelerated(Open GL, not Metal))
+- Linux, BSD, macOS and Windows.
+- minimalist and cleaner (has all the features that you need, and none of those you don't need)
 - best font rendering
+- wrote in Rust
 
 ### [Kitty](https://github.com/kovidgoyal/kitty/)
 
@@ -40,6 +45,7 @@ C    | Wrap
 
 - hated by many (telemetry + need an account)
 - but also loved by many
+- GPU accelerated (Metal)
 
 ## Browser
 
