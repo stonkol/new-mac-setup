@@ -1,4 +1,10 @@
-## Kitty set up 📟
+# Kitty Docs
+
+## Hot keys
+cmd + T   new tab
+cmd + enter new inner-window
+
+# Kitty Set Up 📟
 
    <img src="https://media2.giphy.com/media/26uf4LsTj87JjVDbO/giphy.gif?cid=ecf05e47znj7hli7wiyzjp3li8vhjd89942bfub3yjsdwfn2&rid=giphy.gif&ct=g" width="566" />
 

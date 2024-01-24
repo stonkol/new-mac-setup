@@ -1,26 +1,25 @@
-# Only run on macOS
-
-if [[ "$OSTYPE" == "darwin"* ]]; then
-  # needed for brew
-  eval "$(/opt/homebrew/bin/brew shellenv)"
+# load ~/bashrc if it, cause bashrc is not created in macOS but can be use
+if [ -f ~/.bashrc ]; then
+	source ~/.bashrc      
 fi
 
-# Only run these on Ubuntu
-
-if [[ $(grep -E "^(ID|NAME)=" /etc/os-release | grep -q "ubuntu")$? == 0 ]]; then
-  # needed for brew to work
-  eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/Users/cees/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/Users/cees/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/Users/cees/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/Users/cees/anaconda3/bin:$PATH"
+    fi
 fi
+unset __conda_setup
+# <<< conda initialize <<<
 
-if [ -r ~/.bashrc ]; then
-  source ~/.bashrc
-fi
+. "$HOME/.cargo/env"
 
-export XDG_CONFIG_HOME="$HOME"/.config
+# Homebrew Installation Path
+export PATH="/opt/homebrew/bin:$PATH"
 
-### MANAGED BY RANCHER DESKTOP START (DO NOT EDIT)
-# export PATH="/Users/mischa/.rd/bin:$PATH"
-### MANAGED BY RANCHER DESKTOP END (DO NOT EDIT)
-
-# eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-# export PATH="/opt/homebrew/opt/postgresql@15/bin:$PATH"

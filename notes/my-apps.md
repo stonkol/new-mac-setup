@@ -8,27 +8,39 @@
 
 1. Python `brew install python@3.10`
 
+1. qt `brew`
+
+1. numpy
+
 1. Github Desktop `brew install --cask github`
 
-1. [Processing](https://processing.org) (= > 10.15)`brew install --cask processing`
+1. Coteditor `brew...` lightweight minimal editor, replace mac native editor
 
-1. Unity Hub `brew install --cask unity-hub`
+1. Terminal
 
-1. alacritty `brew install --cask alacritty`
+      1. kitty `brew install --cask kitty`
 
-1. kitty `brew install --cask kitty`
+      1. alacritty `brew install --cask alacritty`
 
 1. Docker `brew install --cask docker`
 
-1. Wireshark `brew install wireshark`
+1. MX Power Gadget `brew...` replace intel power gadget (for Apple Silicon)
 
 1. VeraCrypt `brew install --cask veracrypt`
 
-1. [BalenaEtcher](https://www.balena.io/etcher) `brew install --cask balenaetcher`
+1. Wireshark `brew install wireshark`
 
-1. [Input Source Pro](https://inputsource.pro/) - A tool for multi-language users. `brew install --cask input-source-pro`
+1. Optional
 
-1. Mactracker brew `install --cask mactracker`
+      1. Unity Hub `brew install --cask unity-hub`
+      
+      1. [BalenaEtcher](https://www.balena.io/etcher) `brew install --cask balenaetcher`
+
+      1. [Processing](https://processing.org) (= > 10.15)`brew install --cask processing`
+
+      1. [Input Source Pro](https://inputsource.pro/) - A tool for multi-language users. `brew install --cask input-source-pro`
+
+      1. Mactracker brew `install --cask mactracker`
 
 ## 2. ADD-ONS 🔌
 
@@ -38,7 +50,7 @@
 
 1. [Notion](https://protonvpn.com) `brew install --cask notion`
 
-1. [Better Display](https://github.com/waydabber/BetterDisplay) `brew install --cask betterdisplay` LevelUp display customizations on the menu bar
+1. Monitor Control `brew....` replace [Better Display](https://github.com/waydabber/BetterDisplay)
 
 1. [TopNotch](https://topnotch.app) `brew install --cask topnotch` (turn menu bar to pure black (great for notched macs))
 
@@ -116,6 +128,8 @@
 
 1. Spotify `brew install --cask spotify`
 
+1. nuage `..`
+
 1. Audacity `brew install --cask audacity`
 
 1. Bfxr `brew install --cask bfxr`
@@ -129,6 +143,8 @@
 1. exa ($ls replacement) `brew install exa`
 
 1. diff `brew install diff-so-fancy`
+
+1. neofetch `brew install neofetch` shows a big OS ascii art with sys-info
 
 1. bat (better $cat) `brew install bat`
 
@@ -156,6 +172,8 @@
 
 1. Discord `brew install --cask discord` (can also install the web app from Safari)
 
+1. Slack `brew....`
+
 1. [Signal](https://signal.org) `brew install --cask signal`
 
 1. Telegram `brew install --cask telegram`
@@ -179,7 +197,7 @@
 
 ## Install Apps from the App Store 🧽
 
-   <img src="https://media2.giphy.com/media/CTkWFZ1IDvsfS/giphy.webp?cid=ecf05e47weavtjh1zwitrd0bhooz9tb50tfe2gew99a1akff&rid=giphy.webp&ct=g" width="376" />
+<img src="https://media2.giphy.com/media/CTkWFZ1IDvsfS/giphy.webp?cid=ecf05e47weavtjh1zwitrd0bhooz9tb50tfe2gew99a1akff&rid=giphy.webp&ct=g" width="376" />
 
 ### Apps
 

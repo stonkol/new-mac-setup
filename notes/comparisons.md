@@ -25,7 +25,7 @@ C    | Wrap
 - Fast (gpu-accelerated(Open GL, not Metal))
 - Linux, BSD, macOS and Windows.
 - minimalist and cleaner (has all the features that you need, and none of those you don't need)
-- best font rendering
+- no tabs, no ligature support
 - wrote in Rust
 - error checkers
 - written in Rust (dont work well on old machines)
@@ -34,7 +34,9 @@ C    | Wrap
 
 - fast (GPU based)
 - crazy amount of config
-- built in prompts
+- built-in tabs and windows multiplexing (like tmux)
+  - Kitty offers features that TMUX doesn't such as displaying images, but overall: basic mutiplexer = Kitty; advanced multiplexer = TMUX.
+- built in sexy prompts
 - Powerful font manager, supports ligature fonts
 - the apple of terms, some things will only works on kitty.
 - Super good documentation (even in the config file)
@@ -67,6 +69,24 @@ C  |Chrome Opera
 ## Shell
 bash
 zsh
+
+#### ~/.bash_profile:
+
+td;lr: for configurations that should only be run once during the login process.
+
+This file is executed for login shells. A login shell is typically the first shell that starts when you log in to the system, either through the console or remotely.
+It is read and executed only during the login process.
+Commonly used for setting environment variables, initializing shell variables, and running commands that should be executed once when you log in.
+On macOS, the Terminal app starts a login shell by default.
+
+#### ~/.bashrc:
+
+td;lr:  for configurations that are specific to interactive, non-login shells.
+
+This file is executed for interactive, non-login shells. It is run each time you open a new terminal window or start a new non-login shell.
+It is used for setting shell options, defining aliases, and other configurations specific to interactive shells.
+It is not executed during the login process, so any commands or configurations in ~/.bashrc won't be applied in login shells by default.
+On macOS, when a new terminal window is opened, it typically starts an interactive, non-login shell, so ~/.bashrc is often used for user-specific configurations.
 
 ## Vim
 
