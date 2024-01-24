@@ -3,8 +3,8 @@
 ## which terminal
 
 Tier |
-S    | alacritty
-A    | iTerm2 - kitty - WezTerm
+S    | alacritty - kitty - Gnome Term
+A    | iTerm2 - WezTerm
 B    | macOS term
 C    | Wrap
 
@@ -45,7 +45,8 @@ C    | Wrap
 
 - hated by many (telemetry + need an account)
 - but also loved by many
-- GPU accelerated (Metal)
+- Rust + Metal
+- GPU accelerated
 
 ## Browser
 

@@ -9,6 +9,8 @@
     1. notes
     1. photos
     1. movies
+    1. contacts
+    1. email
     1. designs
     1. code
 1. config files
