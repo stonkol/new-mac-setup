@@ -27,14 +27,21 @@ C    | Wrap
 - minimalist and cleaner (has all the features that you need, and none of those you don't need)
 - best font rendering
 - wrote in Rust
+- error checkers
+- written in Rust (dont work well on old machines)
 
 ### [Kitty](https://github.com/kovidgoyal/kitty/)
 
-- Supports ligature fonts
 - fast (GPU based)
+- crazy amount of config
+- Supports ligature fonts
+- the apple of terms, some things will only works on kitty.
+- Super good documentation (even in the config file)
 - Can run nested tmux sessions and vim instances and jump about the place without redraw lag.
-- Linux, macOS
-- features: Display images, Interactive Unicode characters input, Supports true color, text formatting features, Tiling of multiple windows and tabs, Single config file, Hyperlink clicks, Mouse support, Multiple copy/paste buffers like in Vim
+- Linux, macOS, Free BSD
+
+> [!IMFORMATION]
+> features: Display images, Interactive Unicode characters input, Supports true color, text formatting features, Tiling of multiple windows and tabs, Single config file, Hyperlink clicks, Mouse support, Multiple copy/paste buffers like in Vim
 
 ### [WezTerm](https://wezfurlong.org/wezterm/)
 
