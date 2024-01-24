@@ -17,7 +17,7 @@ cmd + L   clear
 
 [Previzualize](https://www.programmingfonts.org/#maple) fonts
 
-Cool fonts: [MartianMono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/MartianMono.zip), [BigBlueTerm](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/BigBlueTerminal.zip)
+Cool fonts: [0xProton] fancy weird one, [MartianMono](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/MartianMono.zip), [BigBlueTerm](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/BigBlueTerminal.zip)
 
 There are a few with ligature, like [FiraCode Nerd](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.zip), [Lilex Nerd](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Lilex.zip), [OpenDyslexic](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/OpenDyslexic.zip)
 
