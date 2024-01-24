@@ -34,7 +34,8 @@ C    | Wrap
 
 - fast (GPU based)
 - crazy amount of config
-- Supports ligature fonts
+- built in prompts
+- Powerful font manager, supports ligature fonts
 - the apple of terms, some things will only works on kitty.
 - Super good documentation (even in the config file)
 - Can run nested tmux sessions and vim instances and jump about the place without redraw lag.

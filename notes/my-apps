@@ -16,6 +16,8 @@
 
 1. alacritty `brew install --cask alacritty`
 
+1. kitty `brew install --cask kitty`
+
 1. Docker `brew install --cask docker`
 
 1. Wireshark `brew install wireshark`
