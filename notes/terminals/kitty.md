@@ -3,6 +3,7 @@
 ## Hot keys
 cmd + T   new tab
 cmd + enter new inner-window
+cmd + L   clear 
 
 # Kitty Set Up 📟
 
