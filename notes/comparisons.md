@@ -28,7 +28,7 @@ C    | Wrap
 - no tabs, no ligature support
 - wrote in Rust
 - error checkers
-- written in Rust (dont work well on old machines)
+- written in Rust (don't work well on old machines)
 
 ### [Kitty](https://github.com/kovidgoyal/kitty/)
 
