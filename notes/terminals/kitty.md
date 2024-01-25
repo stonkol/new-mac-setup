@@ -63,37 +63,7 @@ ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
 
 ## 4. Install VIM
 
-### 4.1 neoVim
-
-### 4.2 LazyVim
-
-#### Official Installation [Docs](https://www.lazyvim.org/installation)
-
-Make a backup of your current neoVim files:
-
-```shell
-# required
-mv ~/.config/nvim{,.bak}
-
-# optional but recommended
-mv ~/.local/share/nvim{,.bak}
-mv ~/.local/state/nvim{,.bak}
-mv ~/.cache/nvim{,.bak}
-```
-
-Clone the starter:
-
-`$ git clone https://github.com/LazyVim/starter ~/.config/nvim`
-
-Remove the `.git` folder, so you can add it to your own repo later
-
-`$ rm -rf ~/.config/nvim/.git`
-
-Start neoVim!
-`$ nvim`
-
-> [!TIP]
-> It is recommended to run `:LazyHealth` after installation. This will load all plugins and check if everything is working correctly.
+Go to [nvim.md](/notes/nvim.md)
 
 ## 5. PLUGINS ✳️
 
