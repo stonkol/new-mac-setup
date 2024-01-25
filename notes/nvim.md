@@ -3,9 +3,29 @@
 ## shortcuts
 
 shift+;     show command line
+    - wqa   save changes and quit
+
 <space>     show main shortcuts
-e           folder view
-E           current loaction folder view    
+    -   e           folder view
+    -   E           current loaction folder view
+    -   g           goto
+    -       - c       uncomment selected text
+    -   c > r       rename a name in the whole page (typescropt laguage server (lsp feature)) 
+    - u > U         change theme
+
+c > m       open mason (the installer manager)
+q           quit
+i           edit(input) file
+<esc>       leave editing mode
+u           undo
+j           next line
+<nm>+j      jump to <nm> lines below
+shift+v     select lines
+
+s           jump(fly) to anywhere(leap.nvim plugin)
+
+
+
 
 
 # Install

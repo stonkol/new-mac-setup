@@ -208,3 +208,17 @@
 1. Encrypto
 1. Bitdefender
 1. Codecows
+
+### System Plugins
+
+1. Usage: show system usage
+1. Amphentamine: prevent computer to sleep and more cool options
+1. Pomodoro
+1. Helium: PiP
+
+### Safari Plugins
+
+1. Adguard
+1. AdGuard
+1. PiPifier
+1. Link Text Selector
