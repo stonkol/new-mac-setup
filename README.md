@@ -1,12 +1,15 @@
-# Dotfiles
+# Dotfiles Tree
 
-## Tree
-
-- [.config](/config)
+1. [.config](/config)
+ 
       - [kitty](/config/kitty)
+
       - [neofetch](/config/neofetch)
+
       - [nvim](/config/nvim)
-- [notes](/notes)
+
+1. [notes](/notes)
+
       - [terminals](/notes/terminals)
       
       ()...()
