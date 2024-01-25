@@ -33,7 +33,7 @@
 1. Optional
 
       1. Unity Hub `brew install --cask unity-hub`
-      
+
       1. [BalenaEtcher](https://www.balena.io/etcher) `brew install --cask balenaetcher`
 
       1. [Processing](https://processing.org) (= > 10.15)`brew install --cask processing`

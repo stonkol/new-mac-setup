@@ -2,6 +2,8 @@
 
  <img src="https://media0.giphy.com/media/Rd7pEbE7rjZz8vySuU/200w.webp?cid=ecf05e4785rhz7hf3ft9pkpaq2f0gd463xmanfhaw74tfu3s&rid=200w.webp&ct=g" width="496" />
 
+## Install neovim
+
 ### SIMPLE CMDS
 
 - `clear`

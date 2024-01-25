@@ -39,7 +39,7 @@ brew install --cask font-<FONT NAME>-nerd-font
 1. Add to kitty.conf: `font_family GeistMono Nerd Mono`
 1. check if the font is on: `kitty --debug-font-fallback`
 
-## 2. Customize terminal
+## 3. Customize terminal
 
 1. The great thing about this is that you can customize your shell and add plugins. Unlike the old Bash shell, which does not look attractive and can make it difficult for you to use.
 
@@ -61,7 +61,41 @@ ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
    1. Ocean: old fashion shitty teletext
    1. gruvbox light: desert burned
 
-## 3. PLUGINS ✳️
+## 4. Install VIM
+
+### 4.1 neoVim
+
+### 4.2 LazyVim
+
+#### Official Installation [Docs](https://www.lazyvim.org/installation)
+
+Make a backup of your current neoVim files:
+
+```shell
+# required
+mv ~/.config/nvim{,.bak}
+
+# optional but recommended
+mv ~/.local/share/nvim{,.bak}
+mv ~/.local/state/nvim{,.bak}
+mv ~/.cache/nvim{,.bak}
+```
+
+Clone the starter:
+
+`$ git clone https://github.com/LazyVim/starter ~/.config/nvim`
+
+Remove the `.git` folder, so you can add it to your own repo later
+
+`$ rm -rf ~/.config/nvim/.git`
+
+Start neoVim!
+`$ nvim`
+
+> [!TIP]
+> It is recommended to run `:LazyHealth` after installation. This will load all plugins and check if everything is working correctly.
+
+## 5. PLUGINS ✳️
 
    1. the `git` plugin
 
@@ -107,6 +141,5 @@ ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
    1. get volta
 
    manage multiple [Node.js](https://nodejs.org/en/) versions`curl https://get.volta.sh | bash`
-
 
 Then go to [my-apps](notes/my-apps)

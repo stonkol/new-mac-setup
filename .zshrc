@@ -86,8 +86,6 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH="/usr/local/texlive/2023/bin/universal-darwin:$PATH"
 
-alias python='python3'
-
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
@@ -107,13 +105,31 @@ alias python='python3'
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-# For a full list of active aliases, run `alias`.
 
 alias c='clear'
+alias cdg='cd Github'
+alias cdd='cd Documents'
+alias cdw='cd Downloads'
 
 # plugins
 alias mx='cmatrix'
 alias nf='neofetch'
+
+alias wtsen='curl wttr.in/skelleftea'
+alias wtse='curl wttr.in/stonkholm'
+alias wtuk='curl wttr.in/london'
+alias wtch='curl wttr.in/zurich'
+alias wtjp='curl wttr.in/tokyo'
+alias wtsf='curl wttr.in/sanfrancisco'
+alias wtus='curl wttr.in/washington'
+alias wtir='curl wttr.in/teheran'
+alias wtny='curl wttr.in/newyork'
+alias wtar='curl wttr.in/buenosaires'
+alias wtru='curl wttr.in/moscow'
+alias wtsp='curl wttr.in/Санкт-Петербург'
+alias wtes='curl wttr.in/barcelona'
+alias wtsg='curl wttr.in/singapore'
+alias wttp='curl wttr.in/taipei'
 
 alias zshconf="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -126,13 +142,14 @@ alias kiff='kitty --debug-font-fallback'
 
 # git
 alias gia='git add .'
-alias gitl='git pull'
-alias gipo='git push origin'
-alias gst='git status'
-alias gicm='git commit -m "minor update"'
-alias gicmm='git commit -m "mini update susu"'
-alias gicmb='git commit -m "bruh, fix stupid bugs"'
+alias gics='git commit -m "mini update susu"'
+alias gicl='git commit -m "mate, thats so many changes"'
+alias gicfb='git commit -m "bruh, fix stupid bugs"'
+alias gicfika='git commit -m "commit and going for a fika, hejdå!"'
 alias gicmr='git commit -m "update README"'
+alias gipo='git push origin'
+alias gill='git pull'
+alias gst='git status'
 
 # brew
 alias brud='brew update'
