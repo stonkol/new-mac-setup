@@ -21,21 +21,45 @@ Cool fonts: [0xProton] fancy weird one, [MartianMono](https://github.com/ryanoas
 
 There are a few with ligature, like [FiraCode Nerd](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.zip), [Lilex Nerd](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Lilex.zip), [OpenDyslexic](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/OpenDyslexic.zip)
 
-#### Homebrew
+#### Option 1 Ordinary Download (Not recommended)
+
+from the website [Nerdfonts](https://www.nerdfonts.com/font-downloads) 
+
+#### Option 2: Homebrew (easiest)
+
 ```shell
 brew tap homebrew/cask-fonts &&
 brew install --cask font-<FONT NAME>-nerd-font
 ```
 
-#### Bash Install Script
+#### Option 3: Bash Install Script
 `./install.sh <FontName>`
 
+####
+1. Add to kitty.conf: `font_family GeistMono Nerd Mono`
+1. check if the font is on: `kitty --debug-font-fallback`
 
 ## 2. Customize terminal
 
-   1. The great thing about this is that you can customize your shell and add plugins. Unlike the old Bash shell, which does not look attractive and can make it difficult for you to use.
+1. The great thing about this is that you can customize your shell and add plugins. Unlike the old Bash shell, which does not look attractive and can make it difficult for you to use.
 
-   1. **Choose your favorite theme**
+### Themes
+
+1. github themes [repo](include ./theme.conf)
+1. Download `$ git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes`
+1. Choose a theme and create a symlink:
+
+```shell
+cd ~/.config/kitty
+ln -s ./kitty-themes/themes/Floraverse.conf ~/.config/kitty/theme.conf
+```
+
+- Favs
+   1. Vaughn, chill purple
+   1. Twilight: minimalst earth colors
+   1. Tomorrow Night Eighties: low sat colorful
+   1. Ocean: old fashion shitty teletext
+   1. gruvbox light: desert burned
 
 ## 3. PLUGINS ✳️
 
@@ -58,7 +82,7 @@ brew install --cask font-<FONT NAME>-nerd-font
    ```powershell
    brew install autojump
    ```
-   
+
    1. the `zsh-syntax-highlighting` plugin
 
    The installation of [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md) may be tedious. But it worth the effort.

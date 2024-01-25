@@ -107,10 +107,39 @@ alias python='python3'
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# For a full list of active aliases, run `alias`.
+
+alias c='clear'
+
+# plugins
+alias mx='cmatrix'
+alias nf='neofetch'
+
+alias zshconf="mate ~/.zshrc"
+alias ohmyzsh="mate ~/.oh-my-zsh"
+
+alias python='python3'
+
+# kitty
+# display font used
+alias kiff='kitty --debug-font-fallback'
+
+# git
+alias gia='git add .'
+alias gitl='git pull'
+alias gipo='git push origin'
+alias gst='git status'
+alias gicm='git commit -m "minor update"'
+alias gicmm='git commit -m "mini update susu"'
+alias gicmb='git commit -m "bruh, fix stupid bugs"'
+alias gicmr='git commit -m "update README"'
+
+# brew
+alias brud='brew update'
+alias brug='brew upgrade'
+alias brh='brew help'
+alias brt='brew tap'
+alias brc='brew clean'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -132,3 +161,7 @@ unset __conda_setup
 
 # fuck plugin
 eval $(thefuck --alias)
+
+# run automatically every time you open a new terminal window
+#echo "neofetch" >> ~/.bashrc
+# neofetch

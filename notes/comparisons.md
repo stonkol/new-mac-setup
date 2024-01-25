@@ -1,6 +1,6 @@
 # Comparisons
 
-## which terminal
+## Terminals
 
 Tier |
 S    | alacritty - kitty - Gnome Term
@@ -59,7 +59,7 @@ C    | Wrap
 - Rust + Metal
 - GPU accelerated
 
-## Browser
+## Browsers
 
 Tiers| 
 S |  
@@ -67,7 +67,7 @@ A |Firefox Edge Brave Orion
 B | Safari Chromium Duck
 C  |Chrome Opera
 
-## Shell
+## Shells
 bash
 zsh
 
@@ -89,10 +89,19 @@ It is used for setting shell options, defining aliases, and other configurations
 It is not executed during the login process, so any commands or configurations in ~/.bashrc won't be applied in login shells by default.
 On macOS, when a new terminal window is opened, it typically starts an interactive, non-login shell, so ~/.bashrc is often used for user-specific configurations.
 
-## Vim
+## NeoVims
 
-Tier |
-S    |
-A    | nvim
-B    | Vim
-C    | 
+### LazyVim
+
+This one’s like the minimalist trend of Neovim setups. It’s all about keeping things chill and lightweight. It comes with a few plug-ins and configurations that are all about making your life easier without overwhelming you with a bazillion options. has gained a lot of popularity among developers and power users in recent years.
+
+### [LunarVim](https://github.com/LunarVim/LunarVim)
+
+So this one’s more like a community potluck. LunarVim is all about bringing the power to the people. It’s packed with loads of plug-ins and configurations to get your productivity on and keep your workflow smooth as butter. Less manual configuration. Their website docs is easy to understand for newbies. Their preconfigured cmp, lsp, key bindings are the best.
+
+### AstroVim
+
+AstroVim is all about the need for speed, while still being lightweight and user-friendly. It comes with just a few plug-ins and configurations to keep your editing game strong without slowing you down.
+
+NVChad:
+It is a modular Neovim configuration that allows users to choose which plugins and configurations they want to include in their editing environment. It comes with a set of pre-defined modules that can be easily customized to suit the user’s needs.
