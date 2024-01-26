@@ -13,7 +13,9 @@
       - [terminals](/notes/terminals)
 
 1. [not_used]
+
 1. [shell](/shell)
+   
       - [.bash_profile]
         
       - [.bashrc]
@@ -27,7 +29,7 @@
       - [zet.sh](/shell/zet.sh)
         
 1. [vscode](/vscode)
-
+   
       - [.gitignore]
   
       - [.prettierrc](/vscode)
@@ -39,7 +41,7 @@
       - [settings.json](/vscode/settings.json)
   
       - [shortcuts.sass](/vscode/shortcuts.sass)
-1. tmux
+1. .tmux.conf
 1. .zshrc
 1. [dotfile.md](/dotfiles.md)
 - [obsidian.md]
