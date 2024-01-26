@@ -12,20 +12,30 @@
 
       - [terminals](/notes/terminals)
 
-- [not_used]
-- [shell](/shell)
+1. [not_used]
+1. [shell](/shell)
       - [.bash_profile]
+        
       - [.bashrc]
+        
       - [backup.sh](/shell/backup.sh)
+        
       - [pomocalc.sh](/shell/pomocalc.sh)
+        
       - [push.sh](/shell/push.sh)
+        
       - [zet.sh](/shell/zet.sh)
 - [vscode](/vscode)
       - [.gitignore]
+  
       - [.prettierrc](/vscode)
+  
       - [plugins.md](/vscode/plugins.md)
+  
       - [sass-remap](/vscode/sass-remap.json)
+  
       - [settings.json](/vscode/settings.json)
+  
       - [shortcuts.sass](/vscode/shortcuts.sass)
 - tmux
 - .zshrc
