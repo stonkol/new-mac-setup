@@ -185,16 +185,35 @@ eval $(thefuck --alias)
 #echo "neofetch" >> ~/.bashrc
 #neofetch
 
-# ld — lists only directories (no files)
-# lf — lists only files (no directories)
-# lh — lists only hidden files (no directories)
-# ll — lists everything with directories first
-# ls — lists only files sorted by size
-# lt — lists everything sorted by time updated
+# color ls config
+source $(dirname $(gem which colorls))/tab_complete.sh
 
-ld=’eza -lD’
-lf=’eza -lF --color=always | grep -v /’
-lh=’eza -dl .* --group-directories-first’
-ll=’eza -al --group-directories-first’
-ls=’eza -alF --color=always --sort=size | grep -v /’
-lt=’eza -al --sort=modified’
+# With color options : --light or --dark can be passed as a flag, 
+# to choose the  appropriate color scheme. By default, 
+# the dark color scheme is chosen. 
+# In order to tweak any color, read Custom configurations:
+# https://github.com/athityakumar/colorls#custom-configurations
+
+#color ls alias
+alias la='colorls --all'
+alias lA='colorls -lA'
+alias ld='colorls --dirs'
+alias lf='colorls --files'
+alias ll='colorls --long'
+
+alias lt='colorls --tree'
+# these line below didn't work
+# alias lt2='colorls -t 2'
+# alias lt3='colorls --tree=[3]'
+
+alias lh='colorls --help'
+alias lr='colorls --report'
+alias lg='colorls --git-status'
+# show [directories/files] first
+alias ldd='colorls --group-directories-first'
+alias lff='colorls --sort-files'
+
+# combination of flags
+alias lgt='colorls --git-status spec -t'
+alias lgl='colorls --git-status spec -l'
+alias lAs='colorls -lA --sd'

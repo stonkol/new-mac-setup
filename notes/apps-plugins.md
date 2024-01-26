@@ -140,22 +140,18 @@
 
 ## for Terminal
 
-1. exa ($ls replacement) `brew install exa`
-
+1. [colors](https://github.com/athityakumar/colorls) `$ gem install colorls` (ls replacement) a more colorful `ls` with a bunch of configurations. Use nerd fonts. Written in Ruby.
+        1. it need some further configuration, following github
+1. [LSD](https://github.com/lsd-rs/lsd) (LSDeluxe) `$ brew install lsd` : (ls replacement) showing a lot of info about the files and have nerd font icons for each file type. Written in Rust
+1. [LazyVim]:  nvim distro
+1. wttr    usage: `curl wttr.in/[city]`
 1. diff `brew install diff-so-fancy`
-
 1. neofetch `brew install neofetch` shows a big OS ascii art with sys-info
-
 1. bat (better $cat) `brew install bat`
-
 1. tmux `brew install tmux`
-
 1. Matrix `brew install cmatrix` ctrl+C to exit
-
 1. show an aquarium `brew install asciiquarium`
-
 1. toilet [smt] (convert text to ascii) `brew install toilet`
-
 1. play Tetris `brew install samtay/tui/tetris`
 
 ### SOCIAL + FUN 🎪
