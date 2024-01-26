@@ -197,14 +197,12 @@ source $(dirname $(gem which colorls))/tab_complete.sh
 #color ls alias
 alias la='colorls --all'
 alias lA='colorls -lA'
+alias lAs='colorls -lA --sd'
 alias ld='colorls --dirs'
 alias lf='colorls --files'
 alias ll='colorls --long'
 
 alias lt='colorls --tree'
-# these line below didn't work
-# alias lt2='colorls -t 2'
-# alias lt3='colorls --tree=[3]'
 
 alias lh='colorls --help'
 alias lr='colorls --report'
@@ -214,6 +212,11 @@ alias ldd='colorls --group-directories-first'
 alias lff='colorls --sort-files'
 
 # combination of flags
-alias lgt='colorls --git-status spec -t'
-alias lgl='colorls --git-status spec -l'
-alias lAs='colorls -lA --sd'
+# these line below didn't work
+# alias lt2='colorls -t 2'
+# alias lt3='colorls --tree=[3]'
+
+#alias lgt='colorls --gs spec -t'
+#alias lgl='colorls --git-status spec -l'
+#alias lga='colorls --git-status spec -a'
+#alias lgA='colorls --git-status spec -A'
