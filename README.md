@@ -25,7 +25,9 @@
       - [push.sh](/shell/push.sh)
         
       - [zet.sh](/shell/zet.sh)
-- [vscode](/vscode)
+        
+1. [vscode](/vscode)
+
       - [.gitignore]
   
       - [.prettierrc](/vscode)
@@ -37,9 +39,9 @@
       - [settings.json](/vscode/settings.json)
   
       - [shortcuts.sass](/vscode/shortcuts.sass)
-- tmux
-- .zshrc
-- [dotfile.md](/dotfiles.md)
+1. tmux
+1. .zshrc
+1. [dotfile.md](/dotfiles.md)
 - [obsidian.md]
 
 
