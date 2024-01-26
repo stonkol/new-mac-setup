@@ -78,6 +78,7 @@ export ZSH="$HOME/.oh-my-zsh"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
@@ -129,7 +130,7 @@ alias wtru='curl wttr.in/moscow'
 alias wtsp='curl wttr.in/Санкт-Петербург'
 alias wtes='curl wttr.in/barcelona'
 alias wtsg='curl wttr.in/singapore'
-alias wttp='curl wttr.in/taipei'
+alias wttw='curl wttr.in/taipei'
 
 alias zshconf="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
@@ -154,6 +155,7 @@ alias gst='git status'
 # brew
 alias brud='brew update'
 alias brug='brew upgrade'
+alias brl='brew list'
 alias brh='brew help'
 alias brt='brew tap'
 alias brc='brew clean'
@@ -181,4 +183,18 @@ eval $(thefuck --alias)
 
 # run automatically every time you open a new terminal window
 #echo "neofetch" >> ~/.bashrc
-# neofetch
+#neofetch
+
+# ld — lists only directories (no files)
+# lf — lists only files (no directories)
+# lh — lists only hidden files (no directories)
+# ll — lists everything with directories first
+# ls — lists only files sorted by size
+# lt — lists everything sorted by time updated
+
+ld=’eza -lD’
+lf=’eza -lF --color=always | grep -v /’
+lh=’eza -dl .* --group-directories-first’
+ll=’eza -al --group-directories-first’
+ls=’eza -alF --color=always --sort=size | grep -v /’
+lt=’eza -al --sort=modified’
