@@ -2,28 +2,49 @@
 
 ## shortcuts
 
+
+### Insert Mode
+i           Insert mode
+I           Insert at the beginning of the line
+A           Insert text at the end of the line
+crtl+w      Delete current letter to the first letter of a word
+ctrl+u      Delete everything from the current letter to the first letter
+
+
+### Command Mode
 shift+;     show command line
-    - wqa   save changes and quit
+    - wq    save and quit 
+    - wqa   save in all the files, clean buffer and quit
 
 <space>     show main shortcuts
     -   e           folder view
     -   E           current loaction folder view
     -   g           goto
     -       - c       uncomment selected text
-    -   c > r       rename a name in the whole page (typescropt laguage server (lsp feature)) 
+    -   c > r       rename a name in the whole page (typescropt laguage server (lsp feature))
     - u > U         change theme
 
 c > m       open mason (the installer manager)
 q           quit
 i           edit(input) file
-<esc>       leave editing mode
+<esc>       leave editing mode 
 u           undo
 j           next line
 <nm>+j      jump to <nm> lines below
 shift+v     select lines
 
+### Normal Mode
 s           jump(fly) to anywhere(leap.nvim plugin)
+ddp         swap current and below line 
+x           delete
+dl"         delete all the things inside the current " "
+dG          delete from the current line to last line, or the whole doc if if you are in the first line 
 
+y           copy
+yy          copy entire line
+
+yi"         copy all the text inside the " "
+p           paste
 
 
 

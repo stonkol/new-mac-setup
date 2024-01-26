@@ -41,7 +41,7 @@ C    | Wrap
 - the apple of terms, some things will only works on kitty.
 - Super good documentation (even in the config file)
 - Can run nested tmux sessions and vim instances and jump about the place without redraw lag.
-- written in Python
+- Written in C, Go and Python.
 - Linux, macOS, Free BSD
 
 > [!IMFORMATION]
