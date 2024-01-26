@@ -4,3 +4,6 @@
 
 - [ ] set up color theme
 - [ ] check which plugins
+
+
+kiwi
