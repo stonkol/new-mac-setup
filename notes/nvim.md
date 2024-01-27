@@ -1,7 +1,10 @@
 # LazyVim
 
+`#Vim` `#Neovim`
+
 ## shortcuts
 
+Based on this modern [Vim Cheatsheet](https://devhints.io/vim)
 
 ### Insert Mode
 i           Insert mode
@@ -11,9 +14,14 @@ crtl+w      Delete current letter to the first letter of a word
 ctrl+u      Delete everything from the current letter to the first letter
 
 
+### Navigating
+0          	Start of line
+^	          Start of line (after whitespace)
+$	        End of line
+
 ### Command Mode
 shift+;     show command line
-    - wq    save and quit 
+    - wq    save and quit
     - wqa   save in all the files, clean buffer and quit
 
 <space>     show main shortcuts
@@ -24,10 +32,113 @@ shift+;     show command line
     -   c > r       rename a name in the whole page (typescropt laguage server (lsp feature))
     - u > U         change theme
 
+### Clipboard
+x	Delete character
+dd	Delete line (Cut)
+yy	Yank line (Copy)
+p	Paste
+P	Paste before
+"*p / "+p	Paste from system clipboard
+"*y / "+y	Paste to system clipboard
+
+### Navigating
+
+h j k l	        Arrow keys
+<C-U> / <C-D>	Half-page up/down
+<C-B> / <C-F>	Page up/down
+
+#### Words
+
+b / w	  Previous/next word
+ge / e	Previous/next end of word
+
+#### Line
+
+0   	Start of line
+^	    Start of line (after whitespace)
+$	    End of line
+
+#### Character
+
+fc	     Go forward to character c
+Fc	     Go backward to character c
+
+#### Document
+
+gg	     First line
+G	      Last line
+:{number}	Go to line {number}
+{number}G	Go to line {number}
+{number}j	Go down {number} lines
+{number}k	Go up {number} lines
+
+#### Window
+
+zz	  Center this line
+zt	  Top this line
+zb	  Bottom this line
+H	  Move to top of screen
+M	  Move to middle of screen
+L	  Move to bottom of screen
+
+#### Search
+
+n	  Next matching search pattern
+N	   Previous match
+*	   Next whole word under cursor
+`#`    Previous whole word under cursor
+
+### Tab pages
+
+:tabedit [file]	    Edit file in a new tab
+:tabfind [file] 	Open file if exists in new tab
+:tabclose     Close current tab
+:tabs	      List all tabs
+:tabfirst     Go to first tab
+:tablast      Go to last tab
+:tabn	      Go to next tab
+:tabp	      Go to previous ta%
+
+
+### Editing
+
+a	  Append
+A	  Append from end of line
+i	  Insert
+o	  Next line
+O	  Previous line
+s	  Delete char and insert
+S	  Delete line and insert
+C	  Delete until end of line and insert
+r	  Replace one character
+R	  Enter Replace mode
+u	  Undo changes
+<C-R>	Redo changes
+
+### Visual mode
+
+v	Enter visual mode
+V	Enter visual line mode
+<C-V>	Enter visual block mode
+In visual mode
+d / x	Delete selection
+s	Replace selection
+y	Yank selection (Copy)
+
+### Exiting
+
+:q	        Close file
+:qa	        Close all files
+:w	        Save
+:wq / :x	Save and close file
+ZZ	        Save and quit
+
+
+### my notes
 c > m       open mason (the installer manager)
 q           quit
 i           edit(input) file
-<esc>       leave editing mode 
+<esc>       leave editing mode
 u           undo
 j           next line
 <nm>+j      jump to <nm> lines below
@@ -35,19 +146,16 @@ shift+v     select lines
 
 ### Normal Mode
 s           jump(fly) to anywhere(leap.nvim plugin)
-ddp         swap current and below line 
+ddp         swap current and below line
 x           delete
 dl"         delete all the things inside the current " "
-dG          delete from the current line to last line, or the whole doc if if you are in the first line 
+dG          delete from the current line to last line, or the whole doc if if you are in the first line
 
 y           copy
 yy          copy entire line
 
 yi"         copy all the text inside the " "
 p           paste
-
-
-
 
 # Install
 
@@ -94,7 +202,7 @@ Restart your terminal
 
 `$ brew install ripgrep`
 
-#### 2.4 Install fd 
+#### 2.4 Install fd
 
 `$ brew install fd`
 
@@ -102,11 +210,11 @@ Restart your terminal
 
 Homebrew download
 ```shell
-brew tap jesseduffield/lazygit  
+brew tap jesseduffield/lazygit
 brew install lazygitbrew tap
 ```
 
-Install Lazygit
+Install Lazygit:
 `$ brew install lazygit`
 
 ## 3. Install Lua

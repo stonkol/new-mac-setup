@@ -188,9 +188,9 @@ eval $(thefuck --alias)
 # color ls config
 source $(dirname $(gem which colorls))/tab_complete.sh
 
-# With color options : --light or --dark can be passed as a flag, 
-# to choose the  appropriate color scheme. By default, 
-# the dark color scheme is chosen. 
+# With color options : --light or --dark can be passed as a flag,
+# to choose the  appropriate color scheme. By default,
+# the dark color scheme is chosen.
 # In order to tweak any color, read Custom configurations:
 # https://github.com/athityakumar/colorls#custom-configurations
 
@@ -220,3 +220,7 @@ alias lff='colorls --sort-files'
 #alias lgl='colorls --git-status spec -l'
 #alias lga='colorls --git-status spec -a'
 #alias lgA='colorls --git-status spec -A'
+
+# htop (system monitor)
+alias monitor='htop'
+alias stats='htop'

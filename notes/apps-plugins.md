@@ -147,6 +147,7 @@
 1. wttr    usage: `curl wttr.in/[city]`
 1. diff `brew install diff-so-fancy`
 1. neofetch `brew install neofetch` shows a big OS ascii art with sys-info
+1. htop `brew install htop` system stats
 1. bat (better $cat) `brew install bat`
 1. tmux `brew install tmux`
 1. Matrix `brew install cmatrix` ctrl+C to exit
