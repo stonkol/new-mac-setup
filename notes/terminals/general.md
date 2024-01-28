@@ -62,8 +62,6 @@
 
 1. `curl [file]` download a file from the internet
 
-1. `curl [wttr.in/[city]](http://wttr.in/[city])` show the weather
-
 ### SECURITY
 
 1. [Allow Apps from Anywhere (Gatekeeper](http://osxdaily.com/2016/09/27/allow-apps-from-anywhere-macos-gatekeeper/))

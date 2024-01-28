@@ -140,9 +140,9 @@ eval $(thefuck --alias)
 # color ls config
 source $(dirname $(gem which colorls))/tab_complete.sh
 
-# With color options : --light or --dark can be passed as a flag, 
-# to choose the  appropriate color scheme. By default, 
-# the dark color scheme is chosen. 
+# With color options : --light or --dark can be passed as a flag,
+# to choose the  appropriate color scheme. By default,
+# the dark color scheme is chosen.
 # In order to tweak any color, read Custom configurations:
 # https://github.com/athityakumar/colorls#custom-configurations
 
