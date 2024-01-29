@@ -112,17 +112,18 @@ alias brh='brew help'
 alias brt='brew tap'
 alias brc='brew clean'
 
-# create a zet from a template
-# ask to input the file name when I create the file
-# automate injecting the current date and filename in the new file
+# Create a zet
+# Ask to input the file name and create new file from a template
+# Auto-injecting the current date and filename in the new file
 alias zet='create_zet'
 
-create_zet(){
+create_zet() {
     # Set the path where you want to create the file
-    file_path=~/path/to/your/markdown/files/
+    file_path=~/segunda-casa/pasillo/
 
     # Prompt user for the filename
-    read -p "Enter the name of the new file: " filename_input
+    echo "Enter new file name: \c"
+    read filename_input
 
     # Validate input to prevent potential issues
     if [[ ! $filename_input =~ ^[a-zA-Z0-9_-]+$ ]]; then
@@ -130,31 +131,32 @@ create_zet(){
         return 1
     fi
 
-    # created file
+    # create unique identifier and links section
+	current_date="$(date +"%Y-%m-%d %H:%m")"
+
+    # Construct the filename with the user input and extension
     filename="${filename_input}.md"
 
-    if [ -e "$filename" ]; then
-        echo "File already exists: $filename"
-    else
-        # Read the content of the template file
-        template_content=$(<"$template_path")
+    # Full path to the file
+    full_path="${file_path}${filename}"
 
-        # Replace placeholders in the template
-        template_content="${template_content//\{\{date\}\}/$date}"
-        template_content="${template_content//\{\{filename\}\}/$filename_input}"
+    # Check if the file already exists
+    if [ -e "$full_path" ]; then
+        echo "File already exists: $full_path"
+    else
+        # Template content for the new file
+        template="# ${filename_input}\n\n##\n\n- date: ${current_date}\n\n- tags:\n"
 
         # Create the file with the template content
-        echo "$template_content" > "$filename"
+        echo -e "$template" > "$full_path"
 
-        # Open the file in nvim
-        full_path="${file_path}${filename}"
+        # Open the file in nvim with the full path
         nvim "$full_path"
     fi
 }
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-#[ ! -f ~/.p10k.zsh ] || source ~/.p10k.zsh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
