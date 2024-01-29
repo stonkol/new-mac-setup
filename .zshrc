@@ -11,6 +11,7 @@ fi
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
+########################## THEME ##########################
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -24,6 +25,7 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
+########################## PLUGINS ##########################
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
@@ -33,6 +35,9 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+
+# fuck plugin
+eval $(thefuck --alias)
 
 # User configuration
 
@@ -53,6 +58,10 @@ export PATH="/usr/local/texlive/2023/bin/universal-darwin:$PATH"
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
+######################### SCRIPTS ###########################
+source .config/shell_scripts/create_zet.sh
+
+######################### ALIASES ############################
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
@@ -112,52 +121,11 @@ alias brh='brew help'
 alias brt='brew tap'
 alias brc='brew clean'
 
-# Create a zet
-# Ask to input the file name and create new file from a template
-# Auto-injecting the current date and filename in the new file
-alias zet='create_zet'
-
-create_zet() {
-    # Set the path where you want to create the file
-    file_path=~/segunda-casa/pasillo/
-
-    # Prompt user for the filename
-    echo "Enter new file name: \c"
-    read filename_input
-
-    # Validate input to prevent potential issues
-    if [[ ! $filename_input =~ ^[a-zA-Z0-9_-]+$ ]]; then
-        echo "Invalid characters in the filename. Please use only letters, numbers, hyphens, or underscores."
-        return 1
-    fi
-
-    # create unique identifier and links section
-	current_date="$(date +"%Y-%m-%d %H:%m")"
-
-    # Construct the filename with the user input and extension
-    filename="${filename_input}.md"
-
-    # Full path to the file
-    full_path="${file_path}${filename}"
-
-    # Check if the file already exists
-    if [ -e "$full_path" ]; then
-        echo "File already exists: $full_path"
-    else
-        # Template content for the new file
-        template="# ${filename_input}\n\n##\n\n- date: ${current_date}\n\n- tags:\n"
-
-        # Create the file with the template content
-        echo -e "$template" > "$full_path"
-
-        # Open the file in nvim with the full path
-        nvim "$full_path"
-    fi
-}
-
+##################### PROMPT p10k #####################
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+##################### CONDA #####################
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/Users/cees/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
@@ -172,9 +140,6 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
-
-# fuck plugin
-eval $(thefuck --alias)
 
 # run automatically every time you open a new terminal window
 #echo "neofetch" >> ~/.bashrc
@@ -202,6 +167,7 @@ alias lt='colorls --tree'
 alias lh='colorls --help'
 alias lr='colorls --report'
 alias lg='colorls --git-status'
+
 # show [directories/files] first
 alias ldd='colorls --group-directories-first'
 alias lff='colorls --sort-files'
@@ -219,7 +185,6 @@ alias lff='colorls --sort-files'
 # htop (system monitor)
 alias monitor='htop'
 alias stats='htop'
-
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"

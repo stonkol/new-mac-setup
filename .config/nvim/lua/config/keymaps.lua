@@ -28,6 +28,15 @@ keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
 keymap.set("n", "<leader>tn", ":tabn<CR>") --go to next tab
 keymap.set("n", "<leader>tp", ":tabp<CR>") --go to previous tab
 
+-- Map Cmd + Left Arrow to move to the first non-whitespace character
+-- vim.api.nvim_set_keymap('n', '<D-Left>', '^', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap('i', '<D-Left>', '<Esc>^i', { noremap = true, silent = true })
+
+-- -- Map Cmd + Right Arrow to move to the end of the line
+-- vim.api.nvim_set_keymap('n', '<D-Right>', '$', { noremap = true, silent = true })
+-- vim.api.nvim_set_keymap('i', '<D-Right>', '<Esc>$a', { noremap = true, silent = true })
+
+
 ----------------------- default settings --------------------------
 
 ---- This file is automatically loaded by lazyvim.config.init
