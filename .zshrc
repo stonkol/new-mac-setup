@@ -112,8 +112,49 @@ alias brh='brew help'
 alias brt='brew tap'
 alias brc='brew clean'
 
+# create a zet from a template
+# ask to input the file name when I create the file
+# automate injecting the current date and filename in the new file
+alias zet='create_zet'
+
+create_zet(){
+    # Set the path where you want to create the file
+    file_path=~/path/to/your/markdown/files/
+
+    # Prompt user for the filename
+    read -p "Enter the name of the new file: " filename_input
+
+    # Validate input to prevent potential issues
+    if [[ ! $filename_input =~ ^[a-zA-Z0-9_-]+$ ]]; then
+        echo "Invalid characters in the filename. Please use only letters, numbers, hyphens, or underscores."
+        return 1
+    fi
+
+    # created file
+    filename="${filename_input}.md"
+
+    if [ -e "$filename" ]; then
+        echo "File already exists: $filename"
+    else
+        # Read the content of the template file
+        template_content=$(<"$template_path")
+
+        # Replace placeholders in the template
+        template_content="${template_content//\{\{date\}\}/$date}"
+        template_content="${template_content//\{\{filename\}\}/$filename_input}"
+
+        # Create the file with the template content
+        echo "$template_content" > "$filename"
+
+        # Open the file in nvim
+        full_path="${file_path}${filename}"
+        nvim "$full_path"
+    fi
+}
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+#[ ! -f ~/.p10k.zsh ] || source ~/.p10k.zsh
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
