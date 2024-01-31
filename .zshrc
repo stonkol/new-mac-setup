@@ -60,6 +60,7 @@ export PATH="/usr/local/texlive/2023/bin/universal-darwin:$PATH"
 
 ######################### SCRIPTS ###########################
 source .config/shell_scripts/create_zet.sh
+source .config/shell_scripts/create_daily.sh
 
 ######################### ALIASES ############################
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
